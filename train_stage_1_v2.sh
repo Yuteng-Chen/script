@@ -45,7 +45,7 @@ torchrun --nproc_per_node=${NUM_GPUS} --nnodes=1 --node_rank=0 \
     --tool_name_list seek_video_frames \
     --max_interaction_turns 4 \
     --max_prompt_length 24000 \
-    --max_completion_length 1200 \
+    --max_completion_length 16000 \
     --max_completion_length_per_turn 256 \
     --total_video_tokens 10240 \
     --max_frames 700 \
