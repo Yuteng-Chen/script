@@ -35,7 +35,7 @@ MODEL_BASE=/scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/experiment/S
     # --max_completion_length 16000 \
 torchrun --nproc_per_node=${NUM_GPUS} --nnodes=1 --node_rank=0 \
     --master_addr=localhost --master_port=${MASTER_PORT} \
-    time_r1/train_VLLM_stage_1.py \
+    time_r1/train_VLLM_stage_1_merge.py \
     --deepspeed /scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/scripts/zero3.json \
     --output_dir $OUTPUT_DIR \
     --model_name_or_path $MODEL_BASE \
