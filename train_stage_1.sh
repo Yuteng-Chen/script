@@ -74,5 +74,6 @@ torchrun --nproc_per_node=${NUM_GPUS} --nnodes=1 --node_rank=0 \
     --vllm_gpu_memory_utilization 0.4 \
     --shuffle_dataset true \
     --replay_buffer_type dapo \
+    --lr_scheduler_type "cosine" \
     --log_completions true \
     --use_counterfactual_reasoning true
