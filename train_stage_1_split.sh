@@ -41,7 +41,7 @@ torchrun --nproc_per_node=${NUM_GPUS} --nnodes=1 --node_rank=0 \
     --model_name_or_path $MODEL_BASE \
     --train_data_path $TRAIN_PATH \
     --video_folder $VIDEO_ROOT \
-    --reward_func v9_no_gate_tool_reward_merge \
+    --reward_func v9_valid_tool \
     --prompt_template v3 \
     --tool_name_list seek_video_frames \
     --max_interaction_turns 4 \
