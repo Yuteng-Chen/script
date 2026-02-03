@@ -1,14 +1,14 @@
 DATETIME=$(date '+%Y-%m-%d-%H')
-RUN_NAME="check800_stage2_cyt_tool"
+RUN_NAME="split_tool_v2"
 OUTPUT_DIR=/scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/experiment/$RUN_NAME/$DATETIME
 mkdir -p $OUTPUT_DIR
-export WANDB_PROJECT=timesearch-R-stage_2
+module load cuda/12.4.1
+export WANDB_PROJECT=timesearch-R-stage_1
 export WANDB_NAME=$RUN_NAME
 export LOG_PATH=${OUTPUT_DIR}/log.txt
 # export DEBUG=true
 export CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7
 # export TOKENIZERS_PARALLELISM=false
-export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 export PYTHONPATH=".:$PYTHONPATH"
 export SIGLIP_URL=grpc://127.0.0.1:52000
 # export LLM_AS_A_JUDGE_BASE=http://127.0.0.1:18901/v1
@@ -23,8 +23,10 @@ TRAIN_PATH=configs/dataset.yaml
 
 VIDEO_ROOT=/xuhongbo/shuimu.chen/LongVideoBench/LongVideoHaystack/videos_480p_noaudio
 
-MODEL_BASE=/scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/experiment/split_tool/2026-02-02-22/Qwen2.5-VL-800
+# MODEL_BASE=/scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/experiment/SFT_Video_R1_cyt_60_frame/2026-01-27-14/Qwen2.5-VL-800-SFT
+MODEL_BASE=/scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/experiment/SFT_Video_R1_cyt_60_frame_epoch10/2026-02-02-12/Qwen2.5-VL-6000
 
+# PREVIOUS_CKPT="/scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/experiment/$RUN_NAME/2026-01-27-10/checkpoint-50"
 # MODEL_BASE=/xuhongbo//shuimu.chen/Qwen2.5-VL-3B-Instruct
 # MODEL_BASE=/data/shuimu.chen/Qwen2.5-VL-3B-Instruct
 # MODEL_BASE=/xuhongbo/shuimu.chen/TimeSearch-R/Qwen2.5-VL-GRPO
@@ -33,13 +35,13 @@ MODEL_BASE=/scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/experiment/s
     # --max_completion_length 16000 \
 torchrun --nproc_per_node=${NUM_GPUS} --nnodes=1 --node_rank=0 \
     --master_addr=localhost --master_port=${MASTER_PORT} \
-    time_r1/train_VLLM_stage_2.py \
-    --deepspeed scripts/zero3.json \
+    time_r1/train_VLLM_stage_1_split.py \
+    --deepspeed /scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/scripts/zero3.json \
     --output_dir $OUTPUT_DIR \
     --model_name_or_path $MODEL_BASE \
     --train_data_path $TRAIN_PATH \
     --video_folder $VIDEO_ROOT \
-    --reward_func v10_valid_tool \
+    --reward_func v9_valid_tool_v2 \
     --prompt_template v3 \
     --tool_name_list seek_video_frames \
     --max_interaction_turns 4 \
@@ -49,14 +51,14 @@ torchrun --nproc_per_node=${NUM_GPUS} --nnodes=1 --node_rank=0 \
     --total_video_tokens 10240 \
     --max_frames 700 \
     --min_per_frame_tokens 4 \
-    --max_per_frame_tokens 256 \
+    --max_per_frame_tokens 192 \
     --num_generations 8 \
     --scale_rewards false \
     --beta 0.005 \
     --per_device_train_batch_size 1 \
     --gradient_accumulation_steps 2 \
     --steps_per_generation 1 \
-    --dataloader_num_workers 2 \
+    --dataloader_num_workers 4 \
     --logging_steps 1 \
     --bf16 \
     --torch_dtype bfloat16 \
@@ -70,7 +72,7 @@ torchrun --nproc_per_node=${NUM_GPUS} --nnodes=1 --node_rank=0 \
     --save_only_model true \
     --use_vllm true \
     --vllm_mode colocate \
-    --vllm_gpu_memory_utilization 0.3 \
+    --vllm_gpu_memory_utilization 0.4 \
     --shuffle_dataset true \
     --replay_buffer_type dapo \
     --lr_scheduler_type "cosine" \

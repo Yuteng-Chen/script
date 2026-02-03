@@ -24,7 +24,7 @@ TRAIN_PATH=configs/dataset.yaml
 VIDEO_ROOT=/xuhongbo/shuimu.chen/LongVideoBench/LongVideoHaystack/videos_480p_noaudio
 
 # MODEL_BASE=/scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/experiment/SFT_Video_R1_cyt_60_frame/2026-01-27-14/Qwen2.5-VL-800-SFT
-MODEL_BASE=/scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/experiment/SFT_Video_R1_cyt_60_frame/2026-01-27-21/Qwen2.5-VL-1887
+MODEL_BASE=/scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/experiment/SFT_Video_R1_cyt_60_frame_epoch10/2026-02-02-12/Qwen2.5-VL-6000
 
 # PREVIOUS_CKPT="/scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/experiment/$RUN_NAME/2026-01-27-10/checkpoint-50"
 # MODEL_BASE=/xuhongbo//shuimu.chen/Qwen2.5-VL-3B-Instruct
@@ -68,7 +68,7 @@ torchrun --nproc_per_node=${NUM_GPUS} --nnodes=1 --node_rank=0 \
     --num_train_epochs 1 \
     --run_name $RUN_NAME \
     --report_to wandb \
-    --save_steps 400 \
+    --save_steps 800 \
     --save_only_model true \
     --use_vllm true \
     --vllm_mode colocate \
