@@ -1,5 +1,5 @@
 DATETIME=$(date '+%Y-%m-%d-%H')
-RUN_NAME="check800_stage2_cyt_tool"
+RUN_NAME="stage2_cyt_tool_split"
 OUTPUT_DIR=/scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/experiment/$RUN_NAME/$DATETIME
 mkdir -p $OUTPUT_DIR
 export WANDB_PROJECT=timesearch-R-stage_2
@@ -22,8 +22,8 @@ echo "Local training mode: ${NUM_GPUS} GPUs on localhost:${MASTER_PORT}"
 TRAIN_PATH=configs/dataset.yaml
 
 VIDEO_ROOT=/xuhongbo/shuimu.chen/LongVideoBench/LongVideoHaystack/videos_480p_noaudio
-
-MODEL_BASE=/scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/experiment/split_tool/2026-02-02-22/Qwen2.5-VL-800
+## 这里修改为v2的最新权重，需要改名字为Qwen2.5-VL
+MODEL_BASE=/scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/experiment/split_tool/2026-02-02-22/Qwen2.5-VL-800 
 
 # MODEL_BASE=/xuhongbo//shuimu.chen/Qwen2.5-VL-3B-Instruct
 # MODEL_BASE=/data/shuimu.chen/Qwen2.5-VL-3B-Instruct
@@ -33,13 +33,13 @@ MODEL_BASE=/scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/experiment/s
     # --max_completion_length 16000 \
 torchrun --nproc_per_node=${NUM_GPUS} --nnodes=1 --node_rank=0 \
     --master_addr=localhost --master_port=${MASTER_PORT} \
-    time_r1/train_VLLM_stage_2.py \
+    time_r1/train_VLLM_stage_2_split.py \
     --deepspeed scripts/zero3.json \
     --output_dir $OUTPUT_DIR \
     --model_name_or_path $MODEL_BASE \
     --train_data_path $TRAIN_PATH \
     --video_folder $VIDEO_ROOT \
-    --reward_func v10_valid_tool \
+    --reward_func v10_valid_tool_split \
     --prompt_template v3 \
     --tool_name_list seek_video_frames \
     --max_interaction_turns 4 \
