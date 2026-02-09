@@ -2,7 +2,7 @@ DATETIME=$(date '+%Y-%m-%d-%H')
 RUN_NAME="split_tool_v2"
 OUTPUT_DIR=/scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/experiment/$RUN_NAME/$DATETIME
 mkdir -p $OUTPUT_DIR
-module load cuda/12.4.1
+# module load cuda/12.4.1
 export WANDB_PROJECT=timesearch-R-stage_1
 export WANDB_NAME=$RUN_NAME
 export LOG_PATH=${OUTPUT_DIR}/log.txt
@@ -54,7 +54,7 @@ torchrun --nproc_per_node=${NUM_GPUS} --nnodes=1 --node_rank=0 \
     --max_per_frame_tokens 192 \
     --num_generations 8 \
     --scale_rewards false \
-    --beta 0.005 \
+    --beta 0.05 \
     --per_device_train_batch_size 1 \
     --gradient_accumulation_steps 2 \
     --steps_per_generation 1 \
