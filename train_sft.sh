@@ -40,7 +40,7 @@ export PYTHONPATH=".:$PYTHONPATH"
 export SIGLIP_URL=grpc://127.0.0.1:52000 
 
 export WANDB_API_KEY="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"
-
+export DECORD_EOF_RETRY_MAX=2048001 ## 增加次数
 # Local training configuration
 NUM_GPUS=8
 MASTER_PORT=28510
