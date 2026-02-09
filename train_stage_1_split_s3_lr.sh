@@ -1,5 +1,5 @@
 DATETIME=$(date '+%Y-%m-%d-%H')
-RUN_NAME="split_tool_s3_lr8"
+RUN_NAME="split_tool_s3_lr_1e-7"
 OUTPUT_DIR=/scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/experiment/$RUN_NAME/$DATETIME
 mkdir -p $OUTPUT_DIR
 module load cuda/12.4.1
@@ -49,7 +49,7 @@ torchrun --nproc_per_node=${NUM_GPUS} --nnodes=1 --node_rank=0 \
     --max_completion_length 16000 \
     --max_completion_length_per_turn 256 \
     --total_video_tokens 10240 \
-    --max_frames 700 \
+    --max_frames 734 \
     --min_per_frame_tokens 4 \
     --max_per_frame_tokens 192 \
     --num_generations 8 \
@@ -68,7 +68,7 @@ torchrun --nproc_per_node=${NUM_GPUS} --nnodes=1 --node_rank=0 \
     --num_train_epochs 1 \
     --run_name $RUN_NAME \
     --report_to wandb \
-    --save_steps 800 \
+    --save_steps 1000 \
     --save_only_model true \
     --use_vllm true \
     --vllm_mode colocate \
