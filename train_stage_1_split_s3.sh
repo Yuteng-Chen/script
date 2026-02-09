@@ -72,7 +72,7 @@ torchrun --nproc_per_node=${NUM_GPUS} --nnodes=1 --node_rank=0 \
     --save_only_model true \
     --use_vllm true \
     --vllm_mode colocate \
-    --vllm_gpu_memory_utilization 0.4 \
+    --vllm_gpu_memory_utilization 0.3 \
     --shuffle_dataset true \
     --replay_buffer_type dapo \
     --lr_scheduler_type "cosine" \
