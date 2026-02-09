@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DATETIME=$(date '+%Y-%m-%d-%H')
-RUN_NAME="SFT_Video_R1_cyt_60_frame_epoch10_zero2_offload_fix"
+RUN_NAME="SFT_Video_R1_cyt_60_frame_epoch10_zero2_offload_fix_work0"
 OUTPUT_DIR=/scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/experiment/$RUN_NAME/$DATETIME
 mkdir -p $OUTPUT_DIR
 
@@ -23,10 +23,10 @@ mkdir -p $OUTPUT_DIR
 # # export NCCL_DEBUG=INFO
 # # export TORCH_DISTRIBUTED_DEBUG=DETAIL
 
-# 牺牲速度换稳定性
-export NCCL_P2P_DISABLE=1
-export NCCL_IB_DISABLE=1
-export NCCL_SOCKET_IFNAME=bond0.3102
+# # 牺牲速度换稳定性
+# export NCCL_P2P_DISABLE=1
+# export NCCL_IB_DISABLE=1
+# export NCCL_SOCKET_IFNAME=bond0.3102
 
 # === 其他常规设置 ===
 export WANDB_PROJECT=TimeSearch-R-SFT
@@ -67,7 +67,7 @@ torchrun --nproc_per_node=${NUM_GPUS} --nnodes=1 --node_rank=0 \
     --max_per_frame_tokens 192 \
     --per_device_train_batch_size 1 \
     --gradient_accumulation_steps 2 \
-    --dataloader_num_workers 4 \
+    --dataloader_num_workers 0 \
     --logging_steps 1 \
     --bf16 \
     --torch_dtype bfloat16 \
