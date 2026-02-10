@@ -1,5 +1,5 @@
 DATETIME=$(date '+%Y-%m-%d-%H')
-RUN_NAME="split_tool_s3_1e-6"
+RUN_NAME="split_tool_s3_1e-6_wandb"
 OUTPUT_DIR=/scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/experiment/$RUN_NAME/$DATETIME
 mkdir -p $OUTPUT_DIR
 module load cuda/12.4.1
@@ -41,7 +41,7 @@ torchrun --nproc_per_node=${NUM_GPUS} --nnodes=1 --node_rank=0 \
     --model_name_or_path $MODEL_BASE \
     --train_data_path $TRAIN_PATH \
     --video_folder $VIDEO_ROOT \
-    --reward_func v11_valid_tool_split_S3 \
+    --reward_func v11_valid_tool_split_S3_wandb \
     --prompt_template v3 \
     --tool_name_list seek_video_frames \
     --max_interaction_turns 4 \
@@ -58,7 +58,7 @@ torchrun --nproc_per_node=${NUM_GPUS} --nnodes=1 --node_rank=0 \
     --per_device_train_batch_size 1 \
     --gradient_accumulation_steps 2 \
     --steps_per_generation 1 \
-    --dataloader_num_workers 1 \
+    --dataloader_num_workers 4 \
     --logging_steps 1 \
     --bf16 \
     --torch_dtype bfloat16 \

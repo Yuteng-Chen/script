@@ -58,7 +58,7 @@ torchrun --nproc_per_node=${NUM_GPUS} --nnodes=1 --node_rank=0 \
     --per_device_train_batch_size 1 \
     --gradient_accumulation_steps 2 \
     --steps_per_generation 1 \
-    --dataloader_num_workers 4 \
+    --dataloader_num_workers 1 \
     --logging_steps 1 \
     --bf16 \
     --torch_dtype bfloat16 \
