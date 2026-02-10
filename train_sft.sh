@@ -54,7 +54,7 @@ MODEL_BASE=/scratch/prj0000000262-bucket/ocr/ec/models/Qwen2.5-VL-7B-Instruct
 torchrun --nproc_per_node=${NUM_GPUS} --nnodes=1 --node_rank=0 \
     --master_addr=localhost --master_port=${MASTER_PORT} \
     time_r1/sft.py \
-    --deepspeed /scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/scripts/zero2.json \
+    --deepspeed /scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/scripts/zero2_offload.json \
     --output_dir $OUTPUT_DIR \
     --model_name_or_path $MODEL_BASE \
     --train_data_path $TRAIN_PATH \
