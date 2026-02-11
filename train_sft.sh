@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DATETIME=$(date '+%Y-%m-%d-%H')
-RUN_NAME="SFT_Video_R1_cyt_60_frame_epoch1_zero2_fix_work1——pilance-16-offload-128" ## 必须，不然OOM
+RUN_NAME="SFT_Video_R1_cyt_60_frame_epoch1_zero2_fix_work1——pilance-16-128" ## 必须，不然OOM
 OUTPUT_DIR=/scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/experiment/$RUN_NAME/$DATETIME
 mkdir -p $OUTPUT_DIR
 
