@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DATETIME=$(date '+%Y-%m-%d-%H')
-RUN_NAME="SFT_Video_R1_cyt_60_frame_epoch10_zero2_fix_work1——pilance-16-offload" ## 必须，不然OOM
+RUN_NAME="SFT_Video_R1_cyt_60_frame_epoch1_zero2_fix_work1——pilance-16-offload" ## 必须，不然OOM
 OUTPUT_DIR=/scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/experiment/$RUN_NAME/$DATETIME
 mkdir -p $OUTPUT_DIR
 
@@ -75,7 +75,7 @@ torchrun --nproc_per_node=${NUM_GPUS} --nnodes=1 --node_rank=0 \
     --gradient_checkpointing True \
     --attn_implementation flash_attention_2 \
     --learning_rate 1e-6 \
-    --num_train_epochs 10 \
+    --num_train_epochs 1 \
     --run_name $RUN_NAME \
     --report_to wandb \
     --save_steps 1000 \
