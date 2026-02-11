@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DATETIME=$(date '+%Y-%m-%d-%H')
-RUN_NAME="SFT_Video_R1_cyt_60_frame_epoch1_zero2_fix_work1——pilance-16-offload" ## 必须，不然OOM
+RUN_NAME="SFT_Video_R1_cyt_60_frame_epoch1_zero2_fix_work1——pilance-16-offload-128" ## 必须，不然OOM
 OUTPUT_DIR=/scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/experiment/$RUN_NAME/$DATETIME
 mkdir -p $OUTPUT_DIR
 
@@ -54,7 +54,7 @@ MODEL_BASE=/scratch/prj0000000262-bucket/ocr/ec/models/Qwen2.5-VL-7B-Instruct
 torchrun --nproc_per_node=${NUM_GPUS} --nnodes=1 --node_rank=0 \
     --master_addr=localhost --master_port=${MASTER_PORT} \
     time_r1/sft.py \
-    --deepspeed /scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/scripts/zero2_offload.json \
+    --deepspeed /scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/scripts/zero2.json \
     --output_dir $OUTPUT_DIR \
     --model_name_or_path $MODEL_BASE \
     --train_data_path $TRAIN_PATH \
@@ -64,7 +64,7 @@ torchrun --nproc_per_node=${NUM_GPUS} --nnodes=1 --node_rank=0 \
     --total_video_tokens  24000 \
     --max_frames 60 \
     --min_per_frame_tokens 4 \
-    --max_per_frame_tokens 192 \
+    --max_per_frame_tokens 128 \
     --per_device_train_batch_size 1 \
     --gradient_accumulation_steps 2 \
     --dataloader_num_workers 1 \
