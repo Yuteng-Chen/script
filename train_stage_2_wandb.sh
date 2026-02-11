@@ -1,6 +1,7 @@
 DATETIME=$(date '+%Y-%m-%d-%H')
-RUN_NAME="check600_v_1_video-r1_stage2_cyt"
+RUN_NAME="stage2_S3_checkpoint2000kl"
 OUTPUT_DIR=/scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/experiment/$RUN_NAME/$DATETIME
+module load cuda/12.4.1
 mkdir -p $OUTPUT_DIR
 export WANDB_PROJECT=timesearch-R-stage_2
 export WANDB_NAME=$RUN_NAME
@@ -22,8 +23,8 @@ echo "Local training mode: ${NUM_GPUS} GPUs on localhost:${MASTER_PORT}"
 TRAIN_PATH=configs/dataset.yaml
 
 VIDEO_ROOT=/xuhongbo/shuimu.chen/LongVideoBench/LongVideoHaystack/videos_480p_noaudio
-
-MODEL_BASE=/scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/experiment/check600_v_1_video-r1_stage1_test_cyt/2026-01-28-01/Qwen2.5-VL-1200
+## 这里修改为v2的最新权重，需要改名字为Qwen2.5-VL
+MODEL_BASE=/scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/experiment/split_tool_v2/2026-02-03-15/Qwen2.5-VL-1600 
 
 # MODEL_BASE=/xuhongbo//shuimu.chen/Qwen2.5-VL-3B-Instruct
 # MODEL_BASE=/data/shuimu.chen/Qwen2.5-VL-3B-Instruct
@@ -33,13 +34,13 @@ MODEL_BASE=/scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/experiment/c
     # --max_completion_length 16000 \
 torchrun --nproc_per_node=${NUM_GPUS} --nnodes=1 --node_rank=0 \
     --master_addr=localhost --master_port=${MASTER_PORT} \
-    time_r1/train_VLLM_stage_2.py \
-    --deepspeed scripts/zero3_offload.json \
+    time_r1/train_VLLM_stage_2_split.py \
+    --deepspeed /scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/scripts/zero3.json \
     --output_dir $OUTPUT_DIR \
     --model_name_or_path $MODEL_BASE \
     --train_data_path $TRAIN_PATH \
     --video_folder $VIDEO_ROOT \
-    --reward_func v10 \
+    --reward_func v11_valid_tool_split_S123 \
     --prompt_template v3 \
     --tool_name_list seek_video_frames \
     --max_interaction_turns 4 \
@@ -47,7 +48,7 @@ torchrun --nproc_per_node=${NUM_GPUS} --nnodes=1 --node_rank=0 \
     --max_completion_length 16000 \
     --max_completion_length_per_turn 256 \
     --total_video_tokens 10240 \
-    --max_frames 700 \
+    --max_frames 734 \
     --min_per_frame_tokens 4 \
     --max_per_frame_tokens 256 \
     --num_generations 8 \
@@ -56,7 +57,7 @@ torchrun --nproc_per_node=${NUM_GPUS} --nnodes=1 --node_rank=0 \
     --per_device_train_batch_size 1 \
     --gradient_accumulation_steps 2 \
     --steps_per_generation 1 \
-    --dataloader_num_workers 2 \
+    --dataloader_num_workers 1 \
     --logging_steps 1 \
     --bf16 \
     --torch_dtype bfloat16 \
@@ -66,7 +67,7 @@ torchrun --nproc_per_node=${NUM_GPUS} --nnodes=1 --node_rank=0 \
     --num_train_epochs 1 \
     --run_name $RUN_NAME \
     --report_to wandb \
-    --save_steps 400 \
+    --save_steps 800 \
     --save_only_model true \
     --use_vllm true \
     --vllm_mode colocate \
