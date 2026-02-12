@@ -1,14 +1,15 @@
 DATETIME=$(date '+%Y-%m-%d-%H')
-RUN_NAME="split_tool_s3_1e-6_wandb"
+RUN_NAME="stage2_checkpoint2000_no_reasoning"
 OUTPUT_DIR=/scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/experiment/$RUN_NAME/$DATETIME
-mkdir -p $OUTPUT_DIR
 module load cuda/12.4.1
-export WANDB_PROJECT=timesearch-R-stage_1
+mkdir -p $OUTPUT_DIR
+export WANDB_PROJECT=timesearch-R-stage_2
 export WANDB_NAME=$RUN_NAME
 export LOG_PATH=${OUTPUT_DIR}/log.txt
 # export DEBUG=true
-# export CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7
+export CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7
 # export TOKENIZERS_PARALLELISM=false
+export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 export PYTHONPATH=".:$PYTHONPATH"
 export SIGLIP_URL=grpc://127.0.0.1:52000
 # export LLM_AS_A_JUDGE_BASE=http://127.0.0.1:18901/v1
@@ -22,11 +23,9 @@ echo "Local training mode: ${NUM_GPUS} GPUs on localhost:${MASTER_PORT}"
 TRAIN_PATH=configs/dataset.yaml
 
 VIDEO_ROOT=/xuhongbo/shuimu.chen/LongVideoBench/LongVideoHaystack/videos_480p_noaudio
+## 这里修改为v2的最新权重，需要改名字为Qwen2.5-VL
+MODEL_BASE=/scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/experiment/split_tool_v2/2026-02-03-15/Qwen2.5-VL-1600 
 
-# MODEL_BASE=/scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/experiment/SFT_Video_R1_cyt_60_frame/2026-01-27-14/Qwen2.5-VL-800-SFT
-MODEL_BASE=/scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/experiment/SFT_Video_R1_cyt_60_frame_epoch10_zero2/2026-02-08-12/Qwen2.5-VL-2000
-
-# PREVIOUS_CKPT="/scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/experiment/$RUN_NAME/2026-01-27-10/checkpoint-50"
 # MODEL_BASE=/xuhongbo//shuimu.chen/Qwen2.5-VL-3B-Instruct
 # MODEL_BASE=/data/shuimu.chen/Qwen2.5-VL-3B-Instruct
 # MODEL_BASE=/xuhongbo/shuimu.chen/TimeSearch-R/Qwen2.5-VL-GRPO
@@ -35,13 +34,13 @@ MODEL_BASE=/scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/experiment/S
     # --max_completion_length 16000 \
 torchrun --nproc_per_node=${NUM_GPUS} --nnodes=1 --node_rank=0 \
     --master_addr=localhost --master_port=${MASTER_PORT} \
-    time_r1/train_VLLM_stage_1_split.py \
+    time_r1/train_VLLM_stage_2_split.py \
     --deepspeed /scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/scripts/zero3.json \
     --output_dir $OUTPUT_DIR \
     --model_name_or_path $MODEL_BASE \
     --train_data_path $TRAIN_PATH \
     --video_folder $VIDEO_ROOT \
-    --reward_func v11_valid_tool_split_S3_wandb \
+    --reward_func v11_valid_tool_split_S123_no_reasoning \
     --prompt_template v3 \
     --tool_name_list seek_video_frames \
     --max_interaction_turns 4 \
@@ -51,7 +50,7 @@ torchrun --nproc_per_node=${NUM_GPUS} --nnodes=1 --node_rank=0 \
     --total_video_tokens 10240 \
     --max_frames 734 \
     --min_per_frame_tokens 4 \
-    --max_per_frame_tokens 192 \
+    --max_per_frame_tokens 256 \
     --num_generations 8 \
     --scale_rewards false \
     --beta 0.005 \
@@ -68,7 +67,7 @@ torchrun --nproc_per_node=${NUM_GPUS} --nnodes=1 --node_rank=0 \
     --num_train_epochs 1 \
     --run_name $RUN_NAME \
     --report_to wandb \
-    --save_steps 1000 \
+    --save_steps 800 \
     --save_only_model true \
     --use_vllm true \
     --vllm_mode colocate \

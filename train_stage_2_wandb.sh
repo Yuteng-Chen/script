@@ -1,5 +1,5 @@
 DATETIME=$(date '+%Y-%m-%d-%H')
-RUN_NAME="stage2_S3_checkpoint2000kl"
+RUN_NAME="stage2_checkpoint2000"
 OUTPUT_DIR=/scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/experiment/$RUN_NAME/$DATETIME
 module load cuda/12.4.1
 mkdir -p $OUTPUT_DIR
