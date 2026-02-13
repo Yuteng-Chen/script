@@ -57,4 +57,5 @@ accelerate launch --nproc_per_node=${NUM_GPUS} --nnodes=1 --node_rank=0 \
     --run_name $RUN_NAME \
     --report_to wandb \
     --save_steps 1000 \
+    --group_by_length True \
     --save_only_model true
