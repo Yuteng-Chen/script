@@ -21,7 +21,7 @@ torchrun \
     --master_port=24137 \
     time_r1/reflect_tool_three.py \
     --input_path /scratch/prj0000000262-bucket/ocr/ec/Videomme_CYT/gpt/shuimu.chen/Video-MME/videomme/test_data_final_cyt.json \
-    --save_path /scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/test/videomme/test_videomme_3000 \
+    --save_path /scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/test/videomme/grpo_3000 \
     --data_root /data/shuimu.chen/LongVideoBench \
     --model_base /scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/experiment/split_tool_s3_1e-6/2026-02-09-20/checkpoint-3000 \
     --prompt_template v3 \

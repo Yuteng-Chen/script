@@ -1,0 +1,1715 @@
+/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/clip_client/helper.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/clip_client/helper.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/clip_client/helper.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/clip_client/helper.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/clip_client/helper.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/clip_client/helper.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/clip_client/helper.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/clip_client/helper.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[1;33mFutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.[0m [1;30m(raised from /scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/deepspeed/runtime/zero/linear.py:47)[0m
+[1;33mFutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.[0m [1;30m(raised from /scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/deepspeed/runtime/zero/linear.py:47)[0m
+[1;33mFutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.[0m [1;30m(raised from /scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/deepspeed/runtime/zero/linear.py:47)[0m
+[1;33mFutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.[0m [1;30m(raised from /scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/deepspeed/runtime/zero/linear.py:47)[0m
+[1;33mFutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.[0m [1;30m(raised from /scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/deepspeed/runtime/zero/linear.py:47)[0m
+[1;33mFutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.[0m [1;30m(raised from /scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/deepspeed/runtime/zero/linear.py:47)[0m
+[1;33mFutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.[0m [1;30m(raised from /scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/deepspeed/runtime/zero/linear.py:47)[0m
+[1;33mFutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.[0m [1;30m(raised from /scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/deepspeed/runtime/zero/linear.py:47)[0m
+[1;33mFutureWarning: `torch.cuda.amp.custom_bwd(args...)` is deprecated. Please use `torch.amp.custom_bwd(args..., device_type='cuda')` instead.[0m [1;30m(raised from /scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/deepspeed/runtime/zero/linear.py:66)[0m
+[1;33mFutureWarning: `torch.cuda.amp.custom_bwd(args...)` is deprecated. Please use `torch.amp.custom_bwd(args..., device_type='cuda')` instead.[0m [1;30m(raised from /scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/deepspeed/runtime/zero/linear.py:66)[0m
+[1;33mFutureWarning: `torch.cuda.amp.custom_bwd(args...)` is deprecated. Please use `torch.amp.custom_bwd(args..., device_type='cuda')` instead.[0m [1;30m(raised from /scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/deepspeed/runtime/zero/linear.py:66)[0m
+[1;33mFutureWarning: `torch.cuda.amp.custom_bwd(args...)` is deprecated. Please use `torch.amp.custom_bwd(args..., device_type='cuda')` instead.[0m [1;30m(raised from /scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/deepspeed/runtime/zero/linear.py:66)[0m
+[1;33mFutureWarning: `torch.cuda.amp.custom_bwd(args...)` is deprecated. Please use `torch.amp.custom_bwd(args..., device_type='cuda')` instead.[0m [1;30m(raised from /scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/deepspeed/runtime/zero/linear.py:66)[0m
+[1;33mFutureWarning: `torch.cuda.amp.custom_bwd(args...)` is deprecated. Please use `torch.amp.custom_bwd(args..., device_type='cuda')` instead.[0m [1;30m(raised from /scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/deepspeed/runtime/zero/linear.py:66)[0m
+[1;33mFutureWarning: `torch.cuda.amp.custom_bwd(args...)` is deprecated. Please use `torch.amp.custom_bwd(args..., device_type='cuda')` instead.[0m [1;30m(raised from /scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/deepspeed/runtime/zero/linear.py:66)[0m
+[1;33mFutureWarning: `torch.cuda.amp.custom_bwd(args...)` is deprecated. Please use `torch.amp.custom_bwd(args..., device_type='cuda')` instead.[0m [1;30m(raised from /scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/deepspeed/runtime/zero/linear.py:66)[0m
+[WARNING|logging.py:328] 2026-02-14 12:48:07,006 >> The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. Note that this behavior will be extended to all models in a future release.
+[WARNING|logging.py:328] 2026-02-14 12:48:07,042 >> The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. Note that this behavior will be extended to all models in a future release.
+[WARNING|logging.py:328] 2026-02-14 12:48:07,063 >> The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. Note that this behavior will be extended to all models in a future release.
+[WARNING|logging.py:328] 2026-02-14 12:48:07,079 >> The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. Note that this behavior will be extended to all models in a future release.
+[WARNING|logging.py:328] 2026-02-14 12:48:07,120 >> The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. Note that this behavior will be extended to all models in a future release.
+[WARNING|logging.py:328] 2026-02-14 12:48:07,415 >> The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. Note that this behavior will be extended to all models in a future release.
+[WARNING|logging.py:328] 2026-02-14 12:48:07,556 >> The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. Note that this behavior will be extended to all models in a future release.
+[WARNING|logging.py:328] 2026-02-14 12:48:07,692 >> The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. Note that this behavior will be extended to all models in a future release.
+[WARNING|logging.py:328] 2026-02-14 12:48:07,950 >> `torch_dtype` is deprecated! Use `dtype` instead!
+[WARNING|logging.py:328] 2026-02-14 12:48:07,972 >> `torch_dtype` is deprecated! Use `dtype` instead!
+[WARNING|logging.py:328] 2026-02-14 12:48:07,981 >> `torch_dtype` is deprecated! Use `dtype` instead!
+[WARNING|logging.py:328] 2026-02-14 12:48:08,001 >> `torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s][WARNING|logging.py:328] 2026-02-14 12:48:08,034 >> `torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s][WARNING|logging.py:328] 2026-02-14 12:48:08,353 >> `torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s][WARNING|logging.py:328] 2026-02-14 12:48:08,442 >> `torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s][WARNING|logging.py:328] 2026-02-14 12:48:08,583 >> `torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:00<00:03,  1.17it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:00<00:01,  2.12it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:00<00:03,  1.18it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:00<00:01,  2.60it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:00<00:03,  1.15it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:00<00:03,  1.22it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:00<00:03,  1.26it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:00<00:00,  4.12it/s]Loading checkpoint shards:  40%|████      | 2/5 [00:01<00:02,  1.09it/s]Loading checkpoint shards:  40%|████      | 2/5 [00:01<00:02,  1.45it/s]Loading checkpoint shards:  40%|████      | 2/5 [00:01<00:02,  1.27it/s]Loading checkpoint shards:  40%|████      | 2/5 [00:01<00:02,  1.08it/s]Loading checkpoint shards:  40%|████      | 2/5 [00:01<00:02,  1.34it/s]Loading checkpoint shards:  40%|████      | 2/5 [00:01<00:02,  1.05it/s]Loading checkpoint shards:  40%|████      | 2/5 [00:01<00:02,  1.06it/s]Loading checkpoint shards:  40%|████      | 2/5 [00:01<00:02,  1.06it/s]Loading checkpoint shards:  60%|██████    | 3/5 [00:02<00:01,  1.22it/s]Loading checkpoint shards:  60%|██████    | 3/5 [00:02<00:01,  1.21it/s]Loading checkpoint shards:  60%|██████    | 3/5 [00:01<00:01,  1.43it/s]Loading checkpoint shards:  60%|██████    | 3/5 [00:02<00:01,  1.37it/s]Loading checkpoint shards:  60%|██████    | 3/5 [00:02<00:01,  1.19it/s]Loading checkpoint shards:  60%|██████    | 3/5 [00:02<00:01,  1.20it/s]Loading checkpoint shards:  60%|██████    | 3/5 [00:02<00:01,  1.19it/s]Loading checkpoint shards:  60%|██████    | 3/5 [00:02<00:01,  1.33it/s]Loading checkpoint shards:  80%|████████  | 4/5 [00:02<00:00,  1.26it/s]Loading checkpoint shards:  80%|████████  | 4/5 [00:03<00:00,  1.23it/s]Loading checkpoint shards:  80%|████████  | 4/5 [00:03<00:00,  1.15it/s]Loading checkpoint shards:  80%|████████  | 4/5 [00:03<00:00,  1.14it/s]Loading checkpoint shards:  80%|████████  | 4/5 [00:03<00:00,  1.21it/s]Loading checkpoint shards:  80%|████████  | 4/5 [00:03<00:00,  1.14it/s]Loading checkpoint shards:  80%|████████  | 4/5 [00:03<00:00,  1.14it/s]Loading checkpoint shards:  80%|████████  | 4/5 [00:03<00:00,  1.13it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:02<00:00,  1.71it/s]
+qwen-vl-utils using decord to read video.
+Loading checkpoint shards: 100%|██████████| 5/5 [00:03<00:00,  1.63it/s]
+Loading checkpoint shards: 100%|██████████| 5/5 [00:03<00:00,  1.40it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:03<00:00,  1.44it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:03<00:00,  1.41it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:03<00:00,  1.42it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:03<00:00,  1.41it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:03<00:00,  1.58it/s]
+
+
+
+
+
+qwen-vl-utils using decord to read video.
+qwen-vl-utils using decord to read video.
+qwen-vl-utils using decord to read video.qwen-vl-utils using decord to read video.qwen-vl-utils using decord to read video.
+qwen-vl-utils using decord to read video.
+
+qwen-vl-utils using decord to read video.
+
+[1;33mUserWarning: Please ensure all the inputs are valid, otherwise the request will be aborted.[0m [1;30m(raised from /scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/clip_client/client.py:145)[0m
+[1;33mUserWarning: Please ensure all the inputs are valid, otherwise the request will be aborted.[0m [1;30m(raised from /scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/clip_client/client.py:145)[0m
+[1;33mUserWarning: Please ensure all the inputs are valid, otherwise the request will be aborted.[0m [1;30m(raised from /scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/clip_client/client.py:145)[0m
+[1;33mUserWarning: Please ensure all the inputs are valid, otherwise the request will be aborted.[0m [1;30m(raised from /scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/clip_client/client.py:145)[0m
+[1;33mUserWarning: Please ensure all the inputs are valid, otherwise the request will be aborted.[0m [1;30m(raised from /scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/clip_client/client.py:145)[0m
+[1;33mUserWarning: Please ensure all the inputs are valid, otherwise the request will be aborted.[0m [1;30m(raised from /scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/clip_client/client.py:145)[0m
+[1;33mUserWarning: Please ensure all the inputs are valid, otherwise the request will be aborted.[0m [1;30m(raised from /scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/clip_client/client.py:145)[0m
+[1;33mUserWarning: Please ensure all the inputs are valid, otherwise the request will be aborted.[0m [1;30m(raised from /scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/clip_client/client.py:145)[0m
+[WARNING|trainer.py:982] 2026-02-14 12:48:49,590 >> The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None, 'pad_token_id': 151643}.
+[WARNING|trainer.py:982] 2026-02-14 12:49:07,850 >> The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None, 'pad_token_id': 151643}.
+[WARNING|trainer.py:982] 2026-02-14 12:49:08,344 >> The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None, 'pad_token_id': 151643}.
+[WARNING|trainer.py:982] 2026-02-14 12:49:08,488 >> The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None, 'pad_token_id': 151643}.
+[WARNING|trainer.py:982] 2026-02-14 12:49:08,933 >> The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None, 'pad_token_id': 151643}.
+[WARNING|trainer.py:982] 2026-02-14 12:49:09,012 >> The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None, 'pad_token_id': 151643}.
+[WARNING|trainer.py:982] 2026-02-14 12:49:09,046 >> The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None, 'pad_token_id': 151643}.
+[WARNING|trainer.py:982] 2026-02-14 12:49:09,265 >> The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None, 'pad_token_id': 151643}.
+Using /home/users/astar/simt/wanfy/.cache/torch_extensions/py311_cu124 as PyTorch extensions root...
+Emitting ninja build file /home/users/astar/simt/wanfy/.cache/torch_extensions/py311_cu124/cpu_adam/build.ninja...
+Building extension module cpu_adam...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+Loading extension module cpu_adam...
+Using /home/users/astar/simt/wanfy/.cache/torch_extensions/py311_cu124 as PyTorch extensions root...
+Emitting ninja build file /home/users/astar/simt/wanfy/.cache/torch_extensions/py311_cu124/cpu_adam/build.ninja...
+Building extension module cpu_adam...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+Loading extension module cpu_adam...
+Using /home/users/astar/simt/wanfy/.cache/torch_extensions/py311_cu124 as PyTorch extensions root...
+Using /home/users/astar/simt/wanfy/.cache/torch_extensions/py311_cu124 as PyTorch extensions root...
+Using /home/users/astar/simt/wanfy/.cache/torch_extensions/py311_cu124 as PyTorch extensions root...
+Using /home/users/astar/simt/wanfy/.cache/torch_extensions/py311_cu124 as PyTorch extensions root...
+Using /home/users/astar/simt/wanfy/.cache/torch_extensions/py311_cu124 as PyTorch extensions root...
+Using /home/users/astar/simt/wanfy/.cache/torch_extensions/py311_cu124 as PyTorch extensions root...
+Emitting ninja build file /home/users/astar/simt/wanfy/.cache/torch_extensions/py311_cu124/cpu_adam/build.ninja...
+Building extension module cpu_adam...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+Loading extension module cpu_adam...
+Loading extension module cpu_adam...
+Loading extension module cpu_adam...
+Loading extension module cpu_adam...
+Loading extension module cpu_adam...
+Loading extension module cpu_adam...
+wandb: W&B API key is configured. Use `wandb login --relogin` to force relogin
+/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/clip_client/helper.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/clip_client/helper.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/clip_client/helper.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/clip_client/helper.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/clip_client/helper.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/clip_client/helper.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+qwen-vl-utils using decord to read video.
+qwen-vl-utils using decord to read video.
+qwen-vl-utils using decord to read video.
+qwen-vl-utils using decord to read video.
+qwen-vl-utils using decord to read video.
+/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/clip_client/helper.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[h264 @ 0x25c71700] mmco: unref short failure
+wandb: setting up run pfakrnv6
+qwen-vl-utils using decord to read video.
+[h264 @ 0x25432780] mmco: unref short failure
+wandb: Tracking run with wandb version 0.23.1
+wandb: Run data is saved locally in /scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/wandb/run-20260214_125000-pfakrnv6
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run SFT_Video_R1_cyt_60_frame_epoch1_zero2_fix_work1——pilance-16-128-packing
+wandb: ⭐️ View project at https://wandb.ai/2402227288-/TimeSearch-R-SFT
+wandb: 🚀 View run at https://wandb.ai/2402227288-/TimeSearch-R-SFT/runs/pfakrnv6
+wandb: Detected [openai] in use.
+wandb: Use W&B Weave for improved LLM call tracing. Install Weave with `pip install weave` then add `import weave` to the top of your script.
+wandb: For more information, check out the docs at: https://weave-docs.wandb.ai/
+  0%|          | 0/5970 [00:00<?, ?it/s][h264 @ 0x25e5d6c0] mmco: unref short failure
+[h264 @ 0x271f7740] mmco: unref short failure
+qwen-vl-utils using decord to read video.
+[h264 @ 0x258c9e00] mmco: unref short failure
+[h264 @ 0x258c9e00] mmco: unref short failure
+[h264 @ 0x258c9e00] mmco: unref short failure
+[h264 @ 0x258c9e00] mmco: unref short failure
+[h264 @ 0x258c9e00] mmco: unref short failure
+[h264 @ 0x258c9e00] mmco: unref short failure
+[h264 @ 0x263add00] mmco: unref short failure
+[h264 @ 0x258c9e00] mmco: unref short failure
+[h264 @ 0x258c9e00] mmco: unref short failure
+[h264 @ 0x258c9e00] mmco: unref short failure
+[h264 @ 0x258c9e00] mmco: unref short failure
+[h264 @ 0x263add00] mmco: unref short failure
+[h264 @ 0x263add00] mmco: unref short failure
+[h264 @ 0x258c9e00] mmco: unref short failure
+[h264 @ 0x232dd140] mmco: unref short failure
+[h264 @ 0x232dd140] mmco: unref short failure
+[h264 @ 0x232dd140] mmco: unref short failure
+[h264 @ 0x232dd140] mmco: unref short failure
+[h264 @ 0x232dd140] mmco: unref short failure
+[h264 @ 0x232dd140] mmco: unref short failure
+[h264 @ 0x232dd140] mmco: unref short failure
+[h264 @ 0x232dd140] mmco: unref short failure
+[h264 @ 0x232dd140] mmco: unref short failure
+[h264 @ 0x263add00] mmco: unref short failure
+[h264 @ 0x263add00] mmco: unref short failure
+/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/clip_client/helper.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[1;33mUserWarning: Please ensure all the inputs are valid, otherwise the request will be aborted.[0m [1;30m(raised from /scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/clip_client/client.py:145)[0m
+qwen-vl-utils using decord to read video.
+[h264 @ 0x25f90380] mmco: unref short failure
+[h264 @ 0x2641e200] mmco: unref short failure
+[1;33mUserWarning: Please ensure all the inputs are valid, otherwise the request will be aborted.[0m [1;30m(raised from /scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/clip_client/client.py:145)[0m
+[h264 @ 0x2840b400] mmco: unref short failure
+[h264 @ 0x2840b400] mmco: unref short failure
+[h264 @ 0x2840b400] mmco: unref short failure
+[h264 @ 0x2840b400] mmco: unref short failure
+[h264 @ 0x2840b400] mmco: unref short failure
+[1;33mUserWarning: Please ensure all the inputs are valid, otherwise the request will be aborted.[0m [1;30m(raised from /scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/clip_client/client.py:145)[0m
+[h264 @ 0x25796940] mmco: unref short failure
+[h264 @ 0x25796940] mmco: unref short failure
+[1;33mUserWarning: Please ensure all the inputs are valid, otherwise the request will be aborted.[0m [1;30m(raised from /scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/clip_client/client.py:145)[0m
+[h264 @ 0x2a467c00] mmco: unref short failure
+[h264 @ 0x2a467c00] mmco: unref short failure
+[h264 @ 0x262f8240] mmco: unref short failure
+[h264 @ 0x262f8240] mmco: unref short failure
+[h264 @ 0x262f8240] mmco: unref short failure
+[h264 @ 0x262f8240] mmco: unref short failure
+[1;33mUserWarning: Please ensure all the inputs are valid, otherwise the request will be aborted.[0m [1;30m(raised from /scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/clip_client/client.py:145)[0m
+[h264 @ 0x262f8240] mmco: unref short failure
+[h264 @ 0x3f771f80] mmco: unref short failure
+[h264 @ 0x3f771f80] mmco: unref short failure
+[h264 @ 0x3f771f80] mmco: unref short failure
+[h264 @ 0x3f771f80] mmco: unref short failure
+  0%|          | 1/5970 [01:42<169:17:50, 102.11s/it]                                                       0%|          | 1/5970 [01:42<169:17:50, 102.11s/it][h264 @ 0x2536e880] mmco: unref short failure
+[h264 @ 0x2536e880] mmco: unref short failure
+[h264 @ 0x2536e880] mmco: unref short failure
+[h264 @ 0x2536e880] mmco: unref short failure
+[h264 @ 0x24f7b840] mmco: unref short failure
+[h264 @ 0x24f7b840] mmco: unref short failure
+[h264 @ 0x24f7b840] mmco: unref short failure
+[h264 @ 0x24f7b840] mmco: unref short failure
+  0%|          | 2/5970 [01:54<81:47:43, 49.34s/it]                                                       0%|          | 2/5970 [01:54<81:47:43, 49.34s/it][1;33mUserWarning: Please ensure all the inputs are valid, otherwise the request will be aborted.[0m [1;30m(raised from /scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/clip_client/client.py:145)[0m
+[1;33mUserWarning: Please ensure all the inputs are valid, otherwise the request will be aborted.[0m [1;30m(raised from /scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/clip_client/client.py:145)[0m
+  0%|          | 3/5970 [02:44<82:29:04, 49.76s/it]                                                     0%|          | 3/5970 [02:44<82:29:04, 49.76s/it][h264 @ 0x79e833c0] mmco: unref short failure
+  0%|          | 4/5970 [02:53<55:38:57, 33.58s/it]                                                     0%|          | 4/5970 [02:53<55:38:57, 33.58s/it][h264 @ 0x24d3b500] mmco: unref short failure
+[1;33mUserWarning: Please ensure all the inputs are valid, otherwise the request will be aborted.[0m [1;30m(raised from /scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/clip_client/client.py:145)[0m
+[h264 @ 0x3ad0cc00] mmco: unref short failure
+[h264 @ 0x3ad0cc00] mmco: unref short failure
+[h264 @ 0x3ad0cc00] mmco: unref short failure
+[h264 @ 0x26b777c0] mmco: unref short failure
+[h264 @ 0x26b777c0] mmco: unref short failure
+  0%|          | 5/5970 [03:41<64:04:06, 38.67s/it]                                                     0%|          | 5/5970 [03:41<64:04:06, 38.67s/it][h264 @ 0x4a948000] mmco: unref short failure
+[h264 @ 0x4a948000] mmco: unref short failure
+[h264 @ 0x4a948000] mmco: unref short failure
+[h264 @ 0x48a68540] mmco: unref short failure
+[h264 @ 0x48a68540] mmco: unref short failure
+[h264 @ 0x4a948000] mmco: unref short failure
+[h264 @ 0x50553900] mmco: unref short failure
+[h264 @ 0x3dd46200] mmco: unref short failure
+[h264 @ 0x3dd46200] mmco: unref short failure
+[h264 @ 0x50553900] mmco: unref short failure
+[h264 @ 0x50553900] mmco: unref short failure
+[h264 @ 0x50553900] mmco: unref short failure
+  0%|          | 6/5970 [03:52<48:51:17, 29.49s/it]                                                     0%|          | 6/5970 [03:52<48:51:17, 29.49s/it]  0%|          | 7/5970 [04:34<55:29:19, 33.50s/it]                                                     0%|          | 7/5970 [04:34<55:29:19, 33.50s/it][h264 @ 0x23421c00] mmco: unref short failure
+[h264 @ 0x23421c00] mmco: unref short failure
+[h264 @ 0x328d8e00] mmco: unref short failure
+[h264 @ 0x328d8e00] mmco: unref short failure
+[h264 @ 0x328d8e00] mmco: unref short failure
+[h264 @ 0x328d8e00] mmco: unref short failure
+[h264 @ 0x328d8e00] mmco: unref short failure
+[h264 @ 0x2490ae80] mmco: unref short failure
+[h264 @ 0x2490ae80] mmco: unref short failure
+[h264 @ 0x2490ae80] mmco: unref short failure
+[h264 @ 0x2490ae80] mmco: unref short failure
+[h264 @ 0x2490ae80] mmco: unref short failure
+[h264 @ 0x2576afc0] mmco: unref short failure
+[h264 @ 0x2576afc0] mmco: unref short failure
+[h264 @ 0x2576afc0] mmco: unref short failure
+[h264 @ 0x2576afc0] mmco: unref short failure
+[h264 @ 0x2576afc0] mmco: unref short failure
+[h264 @ 0x2576afc0] mmco: unref short failure
+[h264 @ 0x2576afc0] mmco: unref short failure
+[h264 @ 0x4f8a5c80] mmco: unref short failure
+[h264 @ 0x4f8a5c80] mmco: unref short failure
+  0%|          | 8/5970 [05:20<61:47:05, 37.31s/it]                                                     0%|          | 8/5970 [05:20<61:47:05, 37.31s/it][h264 @ 0x4f8a5c80] mmco: unref short failure
+[h264 @ 0x4f8a5c80] mmco: unref short failure
+  0%|          | 9/5970 [05:34<49:43:30, 30.03s/it]                                                     0%|          | 9/5970 [05:34<49:43:30, 30.03s/it][h264 @ 0x26367940] mmco: unref short failure
+[h264 @ 0x26367940] mmco: unref short failure
+[h264 @ 0x26367940] mmco: unref short failure
+[h264 @ 0x237ff080] mmco: unref short failure
+[h264 @ 0x7fb0dac0] mmco: unref short failure
+[h264 @ 0x7fb0dac0] mmco: unref short failure
+  0%|          | 10/5970 [06:14<54:54:42, 33.17s/it]                                                      0%|          | 10/5970 [06:14<54:54:42, 33.17s/it][h264 @ 0x2477a080] mmco: unref short failure
+[h264 @ 0x2477a080] mmco: unref short failure
+[h264 @ 0x2477a080] mmco: unref short failure
+[h264 @ 0x2477a080] mmco: unref short failure
+[h264 @ 0x73864c00] mmco: unref short failure
+[h264 @ 0x749d67c0] mmco: unref short failure
+[h264 @ 0x3d193200] mmco: unref short failure
+  0%|          | 11/5970 [07:09<66:04:24, 39.92s/it]                                                      0%|          | 11/5970 [07:09<66:04:24, 39.92s/it]  0%|          | 12/5970 [08:00<71:30:20, 43.21s/it]                                                      0%|          | 12/5970 [08:00<71:30:20, 43.21s/it]  0%|          | 13/5970 [08:08<53:48:37, 32.52s/it]                                                      0%|          | 13/5970 [08:08<53:48:37, 32.52s/it][h264 @ 0x2eb0f4c0] mmco: unref short failure
+[h264 @ 0x2eb0f4c0] mmco: unref short failure
+[h264 @ 0x240c4b00] mmco: unref short failure
+[h264 @ 0x240c4b00] mmco: unref short failure
+  0%|          | 14/5970 [08:54<60:42:12, 36.69s/it]                                                      0%|          | 14/5970 [08:54<60:42:12, 36.69s/it][h264 @ 0x63916400] mmco: unref short failure
+[h264 @ 0x63916400] mmco: unref short failure
+[h264 @ 0x63916400] mmco: unref short failure
+[h264 @ 0x63916400] mmco: unref short failure
+[h264 @ 0x63916400] mmco: unref short failure
+[h264 @ 0x78985440] mmco: unref short failure
+[h264 @ 0x78985440] mmco: unref short failure
+[h264 @ 0x24becbc0] mmco: unref short failure
+[h264 @ 0x78985440] mmco: unref short failure
+[h264 @ 0x78985440] mmco: unref short failure
+[h264 @ 0x44e08540] mmco: unref short failure
+[h264 @ 0x2f721300] mmco: unref short failure
+[h264 @ 0x2f721300] mmco: unref short failure
+[h264 @ 0x53fac340] mmco: unref short failure
+[h264 @ 0x53fac340] mmco: unref short failure
+  0%|          | 15/5970 [09:36<63:24:40, 38.33s/it]                                                      0%|          | 15/5970 [09:36<63:24:40, 38.33s/it]  0%|          | 16/5970 [09:45<48:53:00, 29.56s/it]                                                      0%|          | 16/5970 [09:45<48:53:00, 29.56s/it][h264 @ 0x271d66c0] mmco: unref short failure
+[h264 @ 0x271d66c0] mmco: unref short failure
+[h264 @ 0x271d66c0] mmco: unref short failure
+[h264 @ 0x63351440] mmco: unref short failure
+[h264 @ 0x63351440] mmco: unref short failure
+[h264 @ 0x63351440] mmco: unref short failure
+  0%|          | 17/5970 [10:47<64:57:05, 39.28s/it]                                                      0%|          | 17/5970 [10:47<64:57:05, 39.28s/it][h264 @ 0x476998c0] mmco: unref short failure
+[h264 @ 0x476998c0] mmco: unref short failure
+[h264 @ 0x235e9700] mmco: unref short failure
+[h264 @ 0x235e9700] mmco: unref short failure
+[h264 @ 0x26910580] mmco: unref short failure
+[h264 @ 0x26910580] mmco: unref short failure
+[h264 @ 0x26910580] mmco: unref short failure
+[h264 @ 0x26910580] mmco: unref short failure
+[h264 @ 0x26910580] mmco: unref short failure
+[h264 @ 0x26910580] mmco: unref short failure
+[h264 @ 0x26910580] mmco: unref short failure
+[h264 @ 0x26910580] mmco: unref short failure
+[h264 @ 0x26910580] mmco: unref short failure
+[h264 @ 0x26910580] mmco: unref short failure
+[h264 @ 0x26910580] mmco: unref short failure
+[h264 @ 0x26910580] mmco: unref short failure
+[h264 @ 0x486643c0] mmco: unref short failure
+[h264 @ 0x486643c0] mmco: unref short failure
+[h264 @ 0x486643c0] mmco: unref short failure
+[h264 @ 0x486643c0] mmco: unref short failure
+  0%|          | 18/5970 [11:12<57:34:32, 34.82s/it]                                                      0%|          | 18/5970 [11:12<57:34:32, 34.82s/it][h264 @ 0x63916400] mmco: unref short failure
+[h264 @ 0x63916400] mmco: unref short failure
+  0%|          | 19/5970 [11:26<47:11:56, 28.55s/it]                                                      0%|          | 19/5970 [11:26<47:11:56, 28.55s/it][h264 @ 0x63916400] mmco: unref short failure
+[h264 @ 0x63916400] mmco: unref short failure
+  0%|          | 20/5970 [11:57<48:36:43, 29.41s/it]                                                      0%|          | 20/5970 [11:57<48:36:43, 29.41s/it][h264 @ 0x8ca0dc80] mmco: unref short failure
+[h264 @ 0x297f9040] mmco: unref short failure
+[h264 @ 0x51a6e900] mmco: unref short failure
+[h264 @ 0x51a6e900] mmco: unref short failure
+[h264 @ 0x47b8d5c0] mmco: unref short failure
+[h264 @ 0x51a6e900] mmco: unref short failure
+[h264 @ 0x51a6e900] mmco: unref short failure
+[h264 @ 0x47b8d5c0] mmco: unref short failure
+[h264 @ 0x47b8d5c0] mmco: unref short failure
+[h264 @ 0x25e31e80] mmco: unref short failure
+[h264 @ 0x2e63a0c0] mmco: unref short failure
+[h264 @ 0x2e63a0c0] mmco: unref short failure
+[h264 @ 0x38353c00] mmco: unref short failure
+[h264 @ 0x38353c00] mmco: unref short failure
+[h264 @ 0x38353c00] mmco: unref short failure
+[h264 @ 0x38353c00] mmco: unref short failure
+[h264 @ 0x25571d80] mmco: unref short failure
+[h264 @ 0x25571d80] mmco: unref short failure
+[h264 @ 0x25571d80] mmco: unref short failure
+[h264 @ 0x25571d80] mmco: unref short failure
+[h264 @ 0x25571d80] mmco: unref short failure
+[h264 @ 0x25571d80] mmco: unref short failure
+[h264 @ 0x25571d80] mmco: unref short failure
+[h264 @ 0x25571d80] mmco: unref short failure
+  0%|          | 21/5970 [12:38<54:17:48, 32.86s/it]                                                      0%|          | 21/5970 [12:38<54:17:48, 32.86s/it][h264 @ 0x2de01d00] mmco: unref short failure
+[h264 @ 0x2de01d00] mmco: unref short failure
+[h264 @ 0x2de01d00] mmco: unref short failure
+[h264 @ 0x2de01d00] mmco: unref short failure
+[h264 @ 0x2de01d00] mmco: unref short failure
+[h264 @ 0x2de01d00] mmco: unref short failure
+[h264 @ 0x7dab9e40] mmco: unref short failure
+[h264 @ 0x7dab9e40] mmco: unref short failure
+[h264 @ 0x7dab9e40] mmco: unref short failure
+[h264 @ 0x7dab9e40] mmco: unref short failure
+[h264 @ 0x7dab9e40] mmco: unref short failure
+[h264 @ 0x7dab9e40] mmco: unref short failure
+  0%|          | 22/5970 [12:51<44:41:39, 27.05s/it]                                                      0%|          | 22/5970 [12:51<44:41:39, 27.05s/it][h264 @ 0x6246e0c0] mmco: unref short failure
+[h264 @ 0x6246e0c0] mmco: unref short failure
+[h264 @ 0x6246e0c0] mmco: unref short failure
+[h264 @ 0x6246e0c0] mmco: unref short failure
+  0%|          | 23/5970 [13:48<59:32:12, 36.04s/it]                                                      0%|          | 23/5970 [13:48<59:32:12, 36.04s/it][h264 @ 0x29a2a9c0] mmco: unref short failure
+  0%|          | 24/5970 [14:00<47:36:49, 28.83s/it]                                                      0%|          | 24/5970 [14:00<47:36:49, 28.83s/it]  0%|          | 25/5970 [14:54<60:00:01, 36.33s/it]                                                      0%|          | 25/5970 [14:54<60:00:01, 36.33s/it][h264 @ 0x47f62540] mmco: unref short failure
+[h264 @ 0x47f62540] mmco: unref short failure
+  0%|          | 26/5970 [15:37<63:20:36, 38.36s/it]                                                      0%|          | 26/5970 [15:37<63:20:36, 38.36s/it][h264 @ 0x438a4d80] mmco: unref short failure
+  0%|          | 27/5970 [15:45<48:16:29, 29.24s/it]                                                      0%|          | 27/5970 [15:45<48:16:29, 29.24s/it][h264 @ 0x3611d4c0] mmco: unref short failure
+[h264 @ 0x3611d4c0] mmco: unref short failure
+[h264 @ 0x6c09ba00] mmco: unref short failure
+[h264 @ 0x6c09ba00] mmco: unref short failure
+[h264 @ 0x3ef97780] mmco: unref short failure
+[h264 @ 0x2b803180] mmco: unref short failure
+  0%|          | 28/5970 [16:36<58:42:32, 35.57s/it]                                                      0%|          | 28/5970 [16:36<58:42:32, 35.57s/it]  0%|          | 29/5970 [17:22<63:47:41, 38.66s/it]                                                      0%|          | 29/5970 [17:22<63:47:41, 38.66s/it][h264 @ 0x772d5880] mmco: unref short failure
+[h264 @ 0x282fd440] mmco: unref short failure
+[h264 @ 0x4904a980] mmco: unref short failure
+[h264 @ 0x4904a980] mmco: unref short failure
+[h264 @ 0x4904a980] mmco: unref short failure
+  1%|          | 30/5970 [17:43<55:26:08, 33.60s/it]                                                      1%|          | 30/5970 [17:43<55:26:08, 33.60s/it][h264 @ 0x73c79fc0] mmco: unref short failure
+[h264 @ 0x73c79fc0] mmco: unref short failure
+[h264 @ 0x4c8e53c0] mmco: unref short failure
+[h264 @ 0x4c8e53c0] mmco: unref short failure
+  1%|          | 31/5970 [17:54<44:02:32, 26.70s/it]                                                      1%|          | 31/5970 [17:54<44:02:32, 26.70s/it][h264 @ 0x270fb340] mmco: unref short failure
+[h264 @ 0x270fb340] mmco: unref short failure
+[h264 @ 0x270fb340] mmco: unref short failure
+[h264 @ 0x270fb340] mmco: unref short failure
+  1%|          | 32/5970 [18:44<55:34:56, 33.70s/it]                                                      1%|          | 32/5970 [18:44<55:34:56, 33.70s/it]  1%|          | 33/5970 [19:10<51:31:33, 31.24s/it]                                                      1%|          | 33/5970 [19:10<51:31:33, 31.24s/it][h264 @ 0x2c760b80] mmco: unref short failure
+[h264 @ 0x237f7d40] mmco: unref short failure
+[h264 @ 0x527f1540] mmco: unref short failure
+  1%|          | 34/5970 [19:51<56:38:49, 34.35s/it]                                                      1%|          | 34/5970 [19:51<56:38:49, 34.35s/it]  1%|          | 35/5970 [20:00<44:07:55, 26.77s/it]                                                      1%|          | 35/5970 [20:00<44:07:55, 26.77s/it][h264 @ 0x323cfc00] Missing reference picture, default is 65530
+[h264 @ 0x323cfc00] mmco: unref short failure
+[h264 @ 0x323cfc00] mmco: unref short failure
+[h264 @ 0x323cfc00] Missing reference picture, default is 65530
+[h264 @ 0x323cfc00] mmco: unref short failure
+[h264 @ 0x323cfc00] mmco: unref short failure
+[h264 @ 0x323cfc00] mmco: unref short failure
+[h264 @ 0x323cfc00] Missing reference picture, default is 65530
+[h264 @ 0x323cfc00] mmco: unref short failure
+[h264 @ 0x323cfc00] mmco: unref short failure
+[h264 @ 0x28324e80] mmco: unref short failure
+[h264 @ 0x28324e80] mmco: unref short failure
+[h264 @ 0x814c9680] mmco: unref short failure
+[h264 @ 0x814c9680] mmco: unref short failure
+  1%|          | 36/5970 [20:45<52:49:30, 32.05s/it]                                                      1%|          | 36/5970 [20:45<52:49:30, 32.05s/it][h264 @ 0x25a72800] mmco: unref short failure
+[h264 @ 0x25a72800] mmco: unref short failure
+[h264 @ 0xa8e75780] mmco: unref short failure
+[h264 @ 0xa8e75780] mmco: unref short failure
+[h264 @ 0xa8e75780] mmco: unref short failure
+[h264 @ 0x50f75d80] mmco: unref short failure
+[h264 @ 0x50f75d80] mmco: unref short failure
+[h264 @ 0x50f75d80] mmco: unref short failure
+[h264 @ 0x25a72800] mmco: unref short failure
+  1%|          | 37/5970 [21:31<59:59:02, 36.40s/it]                                                      1%|          | 37/5970 [21:31<59:59:02, 36.40s/it][h264 @ 0x735a5ec0] mmco: unref short failure
+[h264 @ 0x735a5ec0] mmco: unref short failure
+[h264 @ 0x735a5ec0] mmco: unref short failure
+[h264 @ 0x735a5ec0] mmco: unref short failure
+[h264 @ 0x644f3640] mmco: unref short failure
+[h264 @ 0x644f3640] mmco: unref short failure
+[h264 @ 0x644f3640] mmco: unref short failure
+[h264 @ 0x644f3640] mmco: unref short failure
+[h264 @ 0x2e63a0c0] mmco: unref short failure
+[h264 @ 0x2e63a0c0] mmco: unref short failure
+[h264 @ 0x2e63a0c0] mmco: unref short failure
+[h264 @ 0x2e63a0c0] mmco: unref short failure
+[h264 @ 0x2e63a0c0] mmco: unref short failure
+[h264 @ 0x47f62540] mmco: unref short failure
+[h264 @ 0x47f62540] mmco: unref short failure
+[h264 @ 0x47f62540] mmco: unref short failure
+[h264 @ 0x47f62540] mmco: unref short failure
+  1%|          | 38/5970 [22:12<62:13:03, 37.76s/it]                                                      1%|          | 38/5970 [22:12<62:13:03, 37.76s/it]  1%|          | 39/5970 [22:22<48:33:53, 29.48s/it]                                                      1%|          | 39/5970 [22:22<48:33:53, 29.48s/it][h264 @ 0x63916400] mmco: unref short failure
+[h264 @ 0x63916400] mmco: unref short failure
+[h264 @ 0x3ef97780] mmco: unref short failure
+  1%|          | 40/5970 [23:10<57:45:18, 35.06s/it]                                                      1%|          | 40/5970 [23:10<57:45:18, 35.06s/it][h264 @ 0x256d5500] mmco: unref short failure
+[h264 @ 0x256d5500] mmco: unref short failure
+[h264 @ 0x256d5500] mmco: unref short failure
+[h264 @ 0x256d5500] mmco: unref short failure
+[h264 @ 0x5dfe6300] mmco: unref short failure
+[h264 @ 0x5dfe6300] mmco: unref short failure
+[h264 @ 0x5dfe6300] mmco: unref short failure
+  1%|          | 41/5970 [23:50<59:55:50, 36.39s/it]                                                      1%|          | 41/5970 [23:50<59:55:50, 36.39s/it][h264 @ 0x5dfe6300] mmco: unref short failure
+[h264 @ 0x5dfe6300] mmco: unref short failure
+[h264 @ 0x8035ac00] mmco: unref short failure
+[h264 @ 0x8035ac00] mmco: unref short failure
+[h264 @ 0xcec0ed80] mmco: unref short failure
+[h264 @ 0xcec0ed80] mmco: unref short failure
+[h264 @ 0xcec0ed80] mmco: unref short failure
+[h264 @ 0x8035ac00] mmco: unref short failure
+[h264 @ 0x8035ac00] mmco: unref short failure
+[h264 @ 0xcec0ed80] mmco: unref short failure
+[h264 @ 0xcec0ed80] mmco: unref short failure
+[h264 @ 0xbce1f100] mmco: unref short failure
+[h264 @ 0x31e96440] mmco: unref short failure
+  1%|          | 42/5970 [24:26<59:45:04, 36.29s/it]                                                      1%|          | 42/5970 [24:26<59:45:04, 36.29s/it][h264 @ 0x87638b80] mmco: unref short failure
+[h264 @ 0x2e8a4c80] mmco: unref short failure
+[h264 @ 0x2ed782c0] mmco: unref short failure
+[h264 @ 0x45184cc0] mmco: unref short failure
+[h264 @ 0x25603c00] mmco: unref short failure
+  1%|          | 43/5970 [24:59<58:09:39, 35.33s/it]                                                      1%|          | 43/5970 [24:59<58:09:39, 35.33s/it][h264 @ 0x45e42c00] mmco: unref short failure
+[h264 @ 0x45e42c00] mmco: unref short failure
+[h264 @ 0x282fd440] mmco: unref short failure
+[h264 @ 0x282fd440] mmco: unref short failure
+[h264 @ 0x282fd440] mmco: unref short failure
+[h264 @ 0x282fd440] mmco: unref short failure
+[h264 @ 0x25603c00] mmco: unref short failure
+[h264 @ 0x8937d4c0] mmco: unref short failure
+[h264 @ 0x8937d4c0] mmco: unref short failure
+[h264 @ 0x282fd440] mmco: unref short failure
+[h264 @ 0x282fd440] mmco: unref short failure
+[h264 @ 0x282fd440] mmco: unref short failure
+[h264 @ 0x282fd440] mmco: unref short failure
+[h264 @ 0x574b2780] mmco: unref short failure
+[h264 @ 0x574b2780] mmco: unref short failure
+[h264 @ 0x3b161b40] mmco: unref short failure
+[h264 @ 0x3b161b40] mmco: unref short failure
+  1%|          | 44/5970 [25:43<62:31:54, 37.99s/it]                                                      1%|          | 44/5970 [25:43<62:31:54, 37.99s/it][h264 @ 0x6af5e1c0] mmco: unref short failure
+[h264 @ 0x6af5e1c0] mmco: unref short failure
+[h264 @ 0x2ac3a740] mmco: unref short failure
+[h264 @ 0x2ac3a740] mmco: unref short failure
+[h264 @ 0x8f77a500] mmco: unref short failure
+[h264 @ 0x8f77a500] mmco: unref short failure
+  1%|          | 45/5970 [26:38<70:44:14, 42.98s/it]                                                      1%|          | 45/5970 [26:38<70:44:14, 42.98s/it][h264 @ 0x81877c00] mmco: unref short failure
+[h264 @ 0x81877c00] mmco: unref short failure
+[h264 @ 0x81877c00] mmco: unref short failure
+[h264 @ 0x81877c00] mmco: unref short failure
+[h264 @ 0x81877c00] mmco: unref short failure
+[h264 @ 0x81877c00] mmco: unref short failure
+[h264 @ 0x81877c00] mmco: unref short failure
+[h264 @ 0x81877c00] mmco: unref short failure
+[h264 @ 0x7ba64d00] mmco: unref short failure
+[h264 @ 0x7ba64d00] mmco: unref short failure
+[h264 @ 0x7ba64d00] mmco: unref short failure
+[h264 @ 0x7ba64d00] mmco: unref short failure
+[h264 @ 0x7ba64d00] mmco: unref short failure
+[h264 @ 0x7ba64d00] mmco: unref short failure
+[h264 @ 0x7ba64d00] mmco: unref short failure
+[h264 @ 0x7ba64d00] mmco: unref short failure
+[h264 @ 0x75cefc00] mmco: unref short failure
+[h264 @ 0x75cefc00] mmco: unref short failure
+  1%|          | 46/5970 [26:52<56:25:15, 34.29s/it]                                                      1%|          | 46/5970 [26:52<56:25:15, 34.29s/it][h264 @ 0x33387a80] mmco: unref short failure
+[h264 @ 0x33387a80] mmco: unref short failure
+[h264 @ 0x33387a80] mmco: unref short failure
+[h264 @ 0x410a8c80] mmco: unref short failure
+[h264 @ 0x410a8c80] mmco: unref short failure
+[h264 @ 0x410a8c80] mmco: unref short failure
+[h264 @ 0x410a8c80] mmco: unref short failure
+[h264 @ 0x7ecaf100] mmco: unref short failure
+[h264 @ 0x7ecaf100] mmco: unref short failure
+[h264 @ 0x7ecaf100] mmco: unref short failure
+[h264 @ 0x7ecaf100] mmco: unref short failure
+  1%|          | 47/5970 [28:04<75:00:13, 45.59s/it]                                                      1%|          | 47/5970 [28:04<75:00:13, 45.59s/it][h264 @ 0x71122340] mmco: unref short failure
+[h264 @ 0xc4302980] mmco: unref short failure
+  1%|          | 48/5970 [28:11<56:12:10, 34.17s/it]                                                      1%|          | 48/5970 [28:11<56:12:10, 34.17s/it][h264 @ 0x58ce7c00] mmco: unref short failure
+[h264 @ 0x58ce7c00] mmco: unref short failure
+[h264 @ 0x58ce7c00] mmco: unref short failure
+[h264 @ 0x58ce7c00] mmco: unref short failure
+[h264 @ 0x8389b340] mmco: unref short failure
+[h264 @ 0x8389b340] mmco: unref short failure
+  1%|          | 49/5970 [29:00<63:12:04, 38.43s/it]                                                      1%|          | 49/5970 [29:00<63:12:04, 38.43s/it][h264 @ 0x34696a40] mmco: unref short failure
+[h264 @ 0x746a87c0] mmco: unref short failure
+  1%|          | 50/5970 [29:11<49:44:21, 30.25s/it]                                                      1%|          | 50/5970 [29:11<49:44:21, 30.25s/it][h264 @ 0x6548f380] mmco: unref short failure
+[h264 @ 0x6548f380] mmco: unref short failure
+[h264 @ 0x6548f380] mmco: unref short failure
+[h264 @ 0x6548f380] mmco: unref short failure
+[h264 @ 0x6548f380] mmco: unref short failure
+[h264 @ 0x323cfc00] mmco: unref short failure
+[h264 @ 0x323cfc00] mmco: unref short failure
+[h264 @ 0x323cfc00] mmco: unref short failure
+  1%|          | 51/5970 [29:26<42:15:01, 25.70s/it]                                                      1%|          | 51/5970 [29:26<42:15:01, 25.70s/it][h264 @ 0x232de380] mmco: unref short failure
+[h264 @ 0x232de380] mmco: unref short failure
+[h264 @ 0x2f212000] mmco: unref short failure
+[h264 @ 0x2f212000] mmco: unref short failure
+  1%|          | 52/5970 [30:13<53:02:18, 32.26s/it]                                                      1%|          | 52/5970 [30:13<53:02:18, 32.26s/it][h264 @ 0x38203280] mmco: unref short failure
+[h264 @ 0x38203280] mmco: unref short failure
+[h264 @ 0x38203280] mmco: unref short failure
+[h264 @ 0x38203280] mmco: unref short failure
+[h264 @ 0xc2e1c500] mmco: unref short failure
+[h264 @ 0xc2e1c500] mmco: unref short failure
+[h264 @ 0xc2e1c500] mmco: unref short failure
+[h264 @ 0xc2e1c500] mmco: unref short failure
+  1%|          | 53/5970 [31:33<76:35:31, 46.60s/it]                                                      1%|          | 53/5970 [31:33<76:35:31, 46.60s/it]  1%|          | 54/5970 [31:45<59:14:31, 36.05s/it]                                                      1%|          | 54/5970 [31:45<59:14:31, 36.05s/it][h264 @ 0x9063fd80] mmco: unref short failure
+[h264 @ 0x9063fd80] mmco: unref short failure
+[h264 @ 0x9063fd80] mmco: unref short failure
+[h264 @ 0x9063fd80] mmco: unref short failure
+[h264 @ 0x535f8500] mmco: unref short failure
+[h264 @ 0x8bf5c8c0] mmco: unref short failure
+[h264 @ 0x61f89200] mmco: unref short failure
+[h264 @ 0x61f89200] mmco: unref short failure
+[h264 @ 0x61f89200] mmco: unref short failure
+[h264 @ 0x4fd40040] mmco: unref short failure
+[h264 @ 0x4fd40040] mmco: unref short failure
+[h264 @ 0x4fd40040] mmco: unref short failure
+  1%|          | 55/5970 [32:41<68:57:06, 41.97s/it]                                                      1%|          | 55/5970 [32:41<68:57:06, 41.97s/it]  1%|          | 56/5970 [32:48<51:42:38, 31.48s/it]                                                      1%|          | 56/5970 [32:48<51:42:38, 31.48s/it]  1%|          | 57/5970 [34:11<77:06:50, 46.95s/it]                                                      1%|          | 57/5970 [34:11<77:06:50, 46.95s/it]  1%|          | 58/5970 [34:37<66:45:53, 40.66s/it]                                                      1%|          | 58/5970 [34:37<66:45:53, 40.66s/it][h264 @ 0x3980fc00] mmco: unref short failure
+[h264 @ 0x3980fc00] mmco: unref short failure
+[h264 @ 0x3980fc00] mmco: unref short failure
+[h264 @ 0x3980fc00] mmco: unref short failure
+[h264 @ 0x3980fc00] mmco: unref short failure
+  1%|          | 59/5970 [35:50<83:02:29, 50.58s/it]                                                      1%|          | 59/5970 [35:50<83:02:29, 50.58s/it]  1%|          | 60/5970 [36:00<62:45:38, 38.23s/it]                                                      1%|          | 60/5970 [36:00<62:45:38, 38.23s/it][h264 @ 0x994f4040] mmco: unref short failure
+[h264 @ 0x994f4040] mmco: unref short failure
+[h264 @ 0x8bf5c8c0] mmco: unref short failure
+[h264 @ 0x8bf5c8c0] mmco: unref short failure
+[h264 @ 0x8bf5c8c0] mmco: unref short failure
+[h264 @ 0x8bf5c8c0] mmco: unref short failure
+[h264 @ 0x994f4040] mmco: unref short failure
+[h264 @ 0x994f4040] mmco: unref short failure
+[h264 @ 0x994f4040] Missing reference picture, default is 65530
+[h264 @ 0x994f4040] mmco: unref short failure
+[h264 @ 0x994f4040] mmco: unref short failure
+[h264 @ 0x994f4040] mmco: unref short failure
+[h264 @ 0x994f4040] mmco: unref short failure
+[h264 @ 0x994f4040] mmco: unref short failure
+[h264 @ 0x994f4040] mmco: unref short failure
+[h264 @ 0x6463a800] mmco: unref short failure
+[h264 @ 0x6463a800] mmco: unref short failure
+[h264 @ 0x6463a800] mmco: unref short failure
+[h264 @ 0x6463a800] mmco: unref short failure
+[h264 @ 0x58889fc0] mmco: unref short failure
+[h264 @ 0x58889fc0] mmco: unref short failure
+[h264 @ 0x58889fc0] mmco: unref short failure
+[h264 @ 0x26703fc0] mmco: unref short failure
+[h264 @ 0x26703fc0] mmco: unref short failure
+[h264 @ 0x26703fc0] mmco: unref short failure
+  1%|          | 61/5970 [36:25<56:16:58, 34.29s/it]                                                      1%|          | 61/5970 [36:25<56:16:58, 34.29s/it][h264 @ 0x41d13800] mmco: unref short failure
+[h264 @ 0x41d13800] mmco: unref short failure
+[h264 @ 0x41d13800] mmco: unref short failure
+[h264 @ 0x41d13800] mmco: unref short failure
+[h264 @ 0x25a709c0] mmco: unref short failure
+[h264 @ 0x25a709c0] mmco: unref short failure
+[h264 @ 0x25a709c0] mmco: unref short failure
+[h264 @ 0x25a709c0] mmco: unref short failure
+  1%|          | 62/5970 [37:23<67:51:09, 41.35s/it]                                                      1%|          | 62/5970 [37:23<67:51:09, 41.35s/it][h264 @ 0x2660df80] mmco: unref short failure
+[h264 @ 0x2660df80] mmco: unref short failure
+[h264 @ 0x2660df80] mmco: unref short failure
+[h264 @ 0x2660df80] mmco: unref short failure
+[h264 @ 0x2660df80] mmco: unref short failure
+[h264 @ 0x2660df80] mmco: unref short failure
+[h264 @ 0x2660df80] mmco: unref short failure
+[h264 @ 0x2660df80] mmco: unref short failure
+  1%|          | 63/5970 [37:31<51:24:24, 31.33s/it]                                                      1%|          | 63/5970 [37:31<51:24:24, 31.33s/it][h264 @ 0x4e592ec0] mmco: unref short failure
+[h264 @ 0x4e592ec0] mmco: unref short failure
+[h264 @ 0x4e592ec0] mmco: unref short failure
+[h264 @ 0x4e592ec0] mmco: unref short failure
+[h264 @ 0x4e592ec0] mmco: unref short failure
+[h264 @ 0x4e592ec0] mmco: unref short failure
+  1%|          | 64/5970 [38:17<58:40:32, 35.77s/it]                                                      1%|          | 64/5970 [38:17<58:40:32, 35.77s/it][h264 @ 0x2595c2c0] mmco: unref short failure
+[h264 @ 0x47838700] mmco: unref short failure
+[h264 @ 0x2595c2c0] mmco: unref short failure
+[h264 @ 0x804cf600] mmco: unref short failure
+  1%|          | 65/5970 [38:45<54:51:52, 33.45s/it]                                                      1%|          | 65/5970 [38:45<54:51:52, 33.45s/it][h264 @ 0x804cf600] mmco: unref short failure
+[h264 @ 0x804cf600] mmco: unref short failure
+  1%|          | 66/5970 [39:04<47:56:24, 29.23s/it]                                                      1%|          | 66/5970 [39:04<47:56:24, 29.23s/it][h264 @ 0x53ff2380] mmco: unref short failure
+[h264 @ 0x53ff2380] mmco: unref short failure
+[h264 @ 0x53ff2380] mmco: unref short failure
+[h264 @ 0x53ff2380] mmco: unref short failure
+  1%|          | 67/5970 [39:24<43:18:03, 26.41s/it]                                                      1%|          | 67/5970 [39:24<43:18:03, 26.41s/it]  1%|          | 68/5970 [40:03<49:12:52, 30.02s/it]                                                      1%|          | 68/5970 [40:03<49:12:52, 30.02s/it][h264 @ 0x6ac668c0] mmco: unref short failure
+[h264 @ 0x6ac668c0] mmco: unref short failure
+[h264 @ 0x7c7e72c0] mmco: unref short failure
+[h264 @ 0x7c7e72c0] mmco: unref short failure
+[h264 @ 0x44899100] mmco: unref short failure
+[h264 @ 0x44899100] mmco: unref short failure
+[h264 @ 0x44899100] mmco: unref short failure
+[h264 @ 0x44899100] mmco: unref short failure
+[h264 @ 0x44899100] mmco: unref short failure
+[h264 @ 0x54b49740] mmco: unref short failure
+[h264 @ 0x54b49740] mmco: unref short failure
+[h264 @ 0x7c5d4440] mmco: unref short failure
+[h264 @ 0x7c5d4440] mmco: unref short failure
+[h264 @ 0x84b71f40] mmco: unref short failure
+[h264 @ 0x6fc19340] mmco: unref short failure
+[h264 @ 0x6fc19340] mmco: unref short failure
+[h264 @ 0x6fc19340] mmco: unref short failure
+[h264 @ 0x84b71f40] mmco: unref short failure
+  1%|          | 69/5970 [40:10<38:10:35, 23.29s/it]                                                      1%|          | 69/5970 [40:10<38:10:35, 23.29s/it][h264 @ 0x746a87c0] mmco: unref short failure
+[h264 @ 0x746a87c0] mmco: unref short failure
+[h264 @ 0x746a87c0] mmco: unref short failure
+[h264 @ 0x746a87c0] mmco: unref short failure
+[h264 @ 0x746a87c0] mmco: unref short failure
+[h264 @ 0x746a87c0] mmco: unref short failure
+[h264 @ 0x746a87c0] mmco: unref short failure
+[h264 @ 0x746a87c0] mmco: unref short failure
+[h264 @ 0x746a87c0] mmco: unref short failure
+[h264 @ 0x746a87c0] mmco: unref short failure
+[h264 @ 0x746a87c0] mmco: unref short failure
+[h264 @ 0x746a87c0] mmco: unref short failure
+[h264 @ 0x6440afc0] mmco: unref short failure
+[h264 @ 0x6440afc0] mmco: unref short failure
+[h264 @ 0x8f77a500] mmco: unref short failure
+[h264 @ 0x8f77a500] mmco: unref short failure
+  1%|          | 70/5970 [41:01<51:49:30, 31.62s/it]                                                      1%|          | 70/5970 [41:01<51:49:30, 31.62s/it][h264 @ 0x75f01dc0] mmco: unref short failure
+[h264 @ 0x75f01dc0] mmco: unref short failure
+[h264 @ 0x75f01dc0] mmco: unref short failure
+[h264 @ 0x75f01dc0] mmco: unref short failure
+[h264 @ 0x2a97c5c0] mmco: unref short failure
+[h264 @ 0x2a97c5c0] mmco: unref short failure
+[h264 @ 0x2a97c5c0] mmco: unref short failure
+[h264 @ 0x2a97c5c0] mmco: unref short failure
+[h264 @ 0x54ba0ac0] mmco: unref short failure
+[h264 @ 0x54ba0ac0] mmco: unref short failure
+  1%|          | 71/5970 [41:21<46:06:12, 28.14s/it]                                                      1%|          | 71/5970 [41:21<46:06:12, 28.14s/it][h264 @ 0x964d2900] mmco: unref short failure
+[h264 @ 0x964d2900] mmco: unref short failure
+  1%|          | 72/5970 [41:51<46:41:11, 28.50s/it]                                                      1%|          | 72/5970 [41:51<46:41:11, 28.50s/it][h264 @ 0x4efd03c0] mmco: unref short failure
+[h264 @ 0x4efd03c0] mmco: unref short failure
+[h264 @ 0x4efd03c0] mmco: unref short failure
+[h264 @ 0x6f1cfc40] mmco: unref short failure
+[h264 @ 0x6f1cfc40] mmco: unref short failure
+  1%|          | 73/5970 [42:49<61:27:00, 37.51s/it]                                                      1%|          | 73/5970 [42:49<61:27:00, 37.51s/it]  1%|          | 74/5970 [43:15<55:35:59, 33.95s/it]                                                      1%|          | 74/5970 [43:15<55:35:59, 33.95s/it][h264 @ 0x459db500] mmco: unref short failure
+[h264 @ 0x459db500] mmco: unref short failure
+[h264 @ 0x459db500] mmco: unref short failure
+[h264 @ 0x459db500] mmco: unref short failure
+[h264 @ 0x459db500] mmco: unref short failure
+[h264 @ 0x459db500] mmco: unref short failure
+  1%|▏         | 75/5970 [43:37<49:57:01, 30.50s/it]                                                      1%|▏         | 75/5970 [43:37<49:57:01, 30.50s/it][h264 @ 0x36a57840] mmco: unref short failure
+[h264 @ 0x36a57840] mmco: unref short failure
+[h264 @ 0x36a57840] mmco: unref short failure
+[h264 @ 0x36a57840] mmco: unref short failure
+[h264 @ 0x24ffe3c0] mmco: unref short failure
+[h264 @ 0x24ffe3c0] mmco: unref short failure
+[h264 @ 0x25a709c0] mmco: unref short failure
+[h264 @ 0x25a709c0] mmco: unref short failure
+[h264 @ 0x29c85bc0] mmco: unref short failure
+[h264 @ 0x29c85bc0] mmco: unref short failure
+  1%|▏         | 76/5970 [44:06<49:20:51, 30.14s/it]                                                      1%|▏         | 76/5970 [44:06<49:20:51, 30.14s/it][h264 @ 0x677e6a80] mmco: unref short failure
+[h264 @ 0x7ecaf100] mmco: unref short failure
+[h264 @ 0x7ecaf100] mmco: unref short failure
+[h264 @ 0x7ecaf100] mmco: unref short failure
+[h264 @ 0x7ecaf100] mmco: unref short failure
+  1%|▏         | 77/5970 [44:59<60:10:57, 36.77s/it]                                                      1%|▏         | 77/5970 [44:59<60:10:57, 36.77s/it][h264 @ 0x29a02100] mmco: unref short failure
+[h264 @ 0x29a02100] mmco: unref short failure
+[h264 @ 0x29a02100] mmco: unref short failure
+[h264 @ 0x29a02100] mmco: unref short failure
+[h264 @ 0x29a02100] mmco: unref short failure
+[h264 @ 0x29a02100] mmco: unref short failure
+[h264 @ 0x29a02100] mmco: unref short failure
+[h264 @ 0x29a02100] mmco: unref short failure
+[h264 @ 0x61f89200] mmco: unref short failure
+[h264 @ 0x61f89200] mmco: unref short failure
+[h264 @ 0x61f89200] mmco: unref short failure
+[h264 @ 0x61f89200] mmco: unref short failure
+  1%|▏         | 78/5970 [45:09<47:12:25, 28.84s/it]                                                      1%|▏         | 78/5970 [45:09<47:12:25, 28.84s/it][h264 @ 0x2fda2100] mmco: unref short failure
+[h264 @ 0x2fda2100] mmco: unref short failure
+[h264 @ 0x2fda2100] mmco: unref short failure
+[h264 @ 0x2fda2100] mmco: unref short failure
+[h264 @ 0x5f8b3100] mmco: unref short failure
+[h264 @ 0x5f8b3100] mmco: unref short failure
+[h264 @ 0x5f8b3100] mmco: unref short failure
+[h264 @ 0x5f8b3100] mmco: unref short failure
+  1%|▏         | 79/5970 [45:57<56:45:19, 34.68s/it]                                                      1%|▏         | 79/5970 [45:57<56:45:19, 34.68s/it][h264 @ 0x5947e440] mmco: unref short failure
+[h264 @ 0x5947e440] mmco: unref short failure
+  1%|▏         | 80/5970 [46:41<61:01:58, 37.30s/it]                                                      1%|▏         | 80/5970 [46:41<61:01:58, 37.30s/it][h264 @ 0x33fa46c0] mmco: unref short failure
+[h264 @ 0x33fa46c0] mmco: unref short failure
+[h264 @ 0x33fa46c0] mmco: unref short failure
+[h264 @ 0x33fa46c0] mmco: unref short failure
+[h264 @ 0x33fa46c0] mmco: unref short failure
+[h264 @ 0x6cb81900] mmco: unref short failure
+[h264 @ 0x6cb81900] mmco: unref short failure
+[h264 @ 0x6cb81900] mmco: unref short failure
+[h264 @ 0x6cb81900] mmco: unref short failure
+[h264 @ 0x93319f80] mmco: unref short failure
+[h264 @ 0x93319f80] mmco: unref short failure
+[h264 @ 0x93319f80] mmco: unref short failure
+[h264 @ 0x71aec9c0] mmco: unref short failure
+[h264 @ 0x71aec9c0] mmco: unref short failure
+[h264 @ 0x71aec9c0] mmco: unref short failure
+  1%|▏         | 81/5970 [47:01<52:50:12, 32.30s/it]                                                      1%|▏         | 81/5970 [47:01<52:50:12, 32.30s/it][h264 @ 0x76c64080] mmco: unref short failure
+[h264 @ 0x76c64080] mmco: unref short failure
+[h264 @ 0x76c64080] mmco: unref short failure
+[h264 @ 0x76c64080] mmco: unref short failure
+[h264 @ 0x2e965b40] mmco: unref short failure
+[h264 @ 0x2e965b40] mmco: unref short failure
+  1%|▏         | 82/5970 [47:11<41:44:04, 25.52s/it]                                                      1%|▏         | 82/5970 [47:11<41:44:04, 25.52s/it][h264 @ 0x2e965b40] mmco: unref short failure
+[h264 @ 0x2e965b40] mmco: unref short failure
+[h264 @ 0xa40797c0] mmco: unref short failure
+[h264 @ 0x672b2ac0] mmco: unref short failure
+[h264 @ 0x40610700] mmco: unref short failure
+[h264 @ 0x25db9900] mmco: unref short failure
+[h264 @ 0x672b2ac0] mmco: unref short failure
+[h264 @ 0x25db9900] mmco: unref short failure
+[h264 @ 0x896aac00] mmco: unref short failure
+  1%|▏         | 83/5970 [47:57<51:50:51, 31.71s/it]                                                      1%|▏         | 83/5970 [47:57<51:50:51, 31.71s/it][h264 @ 0x75f01dc0] mmco: unref short failure
+[h264 @ 0x2628fa40] mmco: unref short failure
+[h264 @ 0x8100b100] mmco: unref short failure
+[h264 @ 0x8100b100] mmco: unref short failure
+  1%|▏         | 84/5970 [48:14<44:43:25, 27.35s/it]                                                      1%|▏         | 84/5970 [48:14<44:43:25, 27.35s/it][h264 @ 0x4d57d040] mmco: unref short failure
+[h264 @ 0x4d57d040] mmco: unref short failure
+[h264 @ 0x4a908440] mmco: unref short failure
+[h264 @ 0x4a908440] mmco: unref short failure
+  1%|▏         | 85/5970 [49:07<57:17:02, 35.04s/it]                                                      1%|▏         | 85/5970 [49:07<57:17:02, 35.04s/it][h264 @ 0x58785480] mmco: unref short failure
+[h264 @ 0x58785480] mmco: unref short failure
+[h264 @ 0x5fe18b00] mmco: unref short failure
+[h264 @ 0x5fe18b00] mmco: unref short failure
+[h264 @ 0x9063fd80] mmco: unref short failure
+[h264 @ 0x9063fd80] mmco: unref short failure
+[h264 @ 0x7e556840] mmco: unref short failure
+[h264 @ 0x7e556840] mmco: unref short failure
+[h264 @ 0x7e556840] mmco: unref short failure
+[h264 @ 0x7e556840] mmco: unref short failure
+[h264 @ 0x2bb0d540] mmco: unref short failure
+[h264 @ 0x2bb0d540] mmco: unref short failure
+[h264 @ 0x53ff2380] mmco: unref short failure
+[h264 @ 0x53ff2380] mmco: unref short failure
+[h264 @ 0x53ff2380] mmco: unref short failure
+[h264 @ 0x53ff2380] mmco: unref short failure
+[h264 @ 0xb93faec0] mmco: unref short failure
+[h264 @ 0xb93faec0] mmco: unref short failure
+[h264 @ 0xb93faec0] mmco: unref short failure
+[h264 @ 0xb93faec0] mmco: unref short failure
+[h264 @ 0xb93faec0] mmco: unref short failure
+[h264 @ 0xb93faec0] mmco: unref short failure
+[h264 @ 0xb93faec0] mmco: unref short failure
+[h264 @ 0xb93faec0] mmco: unref short failure
+[h264 @ 0xb93faec0] mmco: unref short failure
+  1%|▏         | 86/5970 [49:30<51:18:13, 31.39s/it]                                                      1%|▏         | 86/5970 [49:30<51:18:13, 31.39s/it]  1%|▏         | 87/5970 [49:42<41:51:20, 25.61s/it]                                                      1%|▏         | 87/5970 [49:42<41:51:20, 25.61s/it][h264 @ 0x24ffe3c0] mmco: unref short failure
+[h264 @ 0x78fb4d40] mmco: unref short failure
+[h264 @ 0xa4df53c0] mmco: unref short failure
+  1%|▏         | 88/5970 [51:06<70:03:44, 42.88s/it]                                                      1%|▏         | 88/5970 [51:06<70:03:44, 42.88s/it][h264 @ 0x72532ac0] mmco: unref short failure
+[h264 @ 0x72532ac0] mmco: unref short failure
+[h264 @ 0x72532ac0] mmco: unref short failure
+[h264 @ 0x72532ac0] mmco: unref short failure
+[h264 @ 0x72532ac0] mmco: unref short failure
+[h264 @ 0x72532ac0] mmco: unref short failure
+[h264 @ 0x72532ac0] mmco: unref short failure
+[h264 @ 0x72532ac0] mmco: unref short failure
+  1%|▏         | 89/5970 [51:54<72:36:05, 44.44s/it]                                                      1%|▏         | 89/5970 [51:54<72:36:05, 44.44s/it][h264 @ 0x85383200] mmco: unref short failure
+[h264 @ 0x601ca140] mmco: unref short failure
+  2%|▏         | 90/5970 [52:09<58:29:22, 35.81s/it]                                                      2%|▏         | 90/5970 [52:09<58:29:22, 35.81s/it][h264 @ 0x5e1ebc40] mmco: unref short failure
+  2%|▏         | 91/5970 [53:02<66:50:10, 40.93s/it]                                                      2%|▏         | 91/5970 [53:02<66:50:10, 40.93s/it]  2%|▏         | 92/5970 [53:32<61:20:28, 37.57s/it]                                                      2%|▏         | 92/5970 [53:32<61:20:28, 37.57s/it]  2%|▏         | 93/5970 [53:50<51:39:16, 31.64s/it]                                                      2%|▏         | 93/5970 [53:50<51:39:16, 31.64s/it][h264 @ 0xbebd2300] mmco: unref short failure
+[h264 @ 0x2fda2100] mmco: unref short failure
+  2%|▏         | 94/5970 [54:18<50:12:08, 30.76s/it]                                                      2%|▏         | 94/5970 [54:18<50:12:08, 30.76s/it][h264 @ 0x601ca140] mmco: unref short failure
+[h264 @ 0x601ca140] mmco: unref short failure
+[h264 @ 0x601ca140] mmco: unref short failure
+[h264 @ 0x601ca140] mmco: unref short failure
+[h264 @ 0x601ca140] mmco: unref short failure
+[h264 @ 0x601ca140] mmco: unref short failure
+[h264 @ 0x601ca140] mmco: unref short failure
+[h264 @ 0x601ca140] mmco: unref short failure
+  2%|▏         | 95/5970 [54:47<49:13:25, 30.16s/it]                                                      2%|▏         | 95/5970 [54:47<49:13:25, 30.16s/it][h264 @ 0x5bc45480] mmco: unref short failure
+[h264 @ 0x501dd840] mmco: unref short failure
+[h264 @ 0x5bc45480] mmco: unref short failure
+[h264 @ 0x5bc45480] mmco: unref short failure
+[h264 @ 0x73c399c0] mmco: unref short failure
+  2%|▏         | 96/5970 [55:37<58:46:23, 36.02s/it]                                                      2%|▏         | 96/5970 [55:37<58:46:23, 36.02s/it]  2%|▏         | 97/5970 [55:47<46:07:09, 28.27s/it]                                                      2%|▏         | 97/5970 [55:47<46:07:09, 28.27s/it][h264 @ 0x261a9540] mmco: unref short failure
+[h264 @ 0x261a9540] mmco: unref short failure
+[h264 @ 0x261a9540] mmco: unref short failure
+[h264 @ 0x261a9540] mmco: unref short failure
+[h264 @ 0x605a4040] mmco: unref short failure
+[h264 @ 0x8cbd1bc0] mmco: unref short failure
+[h264 @ 0x8cbd1bc0] mmco: unref short failure
+  2%|▏         | 98/5970 [56:40<58:06:41, 35.63s/it]                                                      2%|▏         | 98/5970 [56:40<58:06:41, 35.63s/it][h264 @ 0x7b946400] mmco: unref short failure
+[h264 @ 0x7b946400] mmco: unref short failure
+[h264 @ 0x7b946400] mmco: unref short failure
+[h264 @ 0x7b946400] mmco: unref short failure
+  2%|▏         | 99/5970 [56:49<44:53:35, 27.53s/it]                                                      2%|▏         | 99/5970 [56:49<44:53:35, 27.53s/it][h264 @ 0x42b25cc0] mmco: unref short failure
+[h264 @ 0x42b25cc0] mmco: unref short failure
+[h264 @ 0x42b25cc0] mmco: unref short failure
+[h264 @ 0x42b25cc0] mmco: unref short failure
+  2%|▏         | 100/5970 [57:13<43:33:30, 26.71s/it]                                                       2%|▏         | 100/5970 [57:13<43:33:30, 26.71s/it][h264 @ 0x9ec08ac0] mmco: unref short failure
+[h264 @ 0x9ec08ac0] mmco: unref short failure
+[h264 @ 0x8804f180] mmco: unref short failure
+[h264 @ 0x8804f180] mmco: unref short failure
+[h264 @ 0x8804f180] mmco: unref short failure
+[h264 @ 0x8804f180] mmco: unref short failure
+  2%|▏         | 101/5970 [58:13<59:33:52, 36.54s/it]                                                       2%|▏         | 101/5970 [58:13<59:33:52, 36.54s/it]  2%|▏         | 102/5970 [58:57<63:23:04, 38.89s/it]                                                       2%|▏         | 102/5970 [58:57<63:23:04, 38.89s/it][h264 @ 0x98c1b000] mmco: unref short failure
+[h264 @ 0x98c1b000] mmco: unref short failure
+[h264 @ 0x98c1b000] mmco: unref short failure
+[h264 @ 0x33fa46c0] mmco: unref short failure
+[h264 @ 0x33fa46c0] mmco: unref short failure
+  2%|▏         | 103/5970 [59:10<50:48:57, 31.18s/it]                                                       2%|▏         | 103/5970 [59:10<50:48:57, 31.18s/it]  2%|▏         | 104/5970 [59:42<50:56:31, 31.26s/it]                                                       2%|▏         | 104/5970 [59:42<50:56:31, 31.26s/it][h264 @ 0x2e035540] mmco: unref short failure
+[h264 @ 0x2e035540] mmco: unref short failure
+[h264 @ 0x3b214900] mmco: unref short failure
+[h264 @ 0x3b214900] mmco: unref short failure
+[h264 @ 0x3b214900] mmco: unref short failure
+[h264 @ 0x3b214900] mmco: unref short failure
+[h264 @ 0x3b214900] mmco: unref short failure
+[h264 @ 0x3b214900] mmco: unref short failure
+[h264 @ 0x3b214900] mmco: unref short failure
+[h264 @ 0x3b214900] mmco: unref short failure
+[h264 @ 0x3b214900] mmco: unref short failure
+[h264 @ 0x3b214900] mmco: unref short failure
+[h264 @ 0x3b214900] mmco: unref short failure
+[h264 @ 0x3b214900] mmco: unref short failure
+[h264 @ 0x254294c0] mmco: unref short failure
+[h264 @ 0x254294c0] mmco: unref short failure
+[h264 @ 0x254294c0] mmco: unref short failure
+[h264 @ 0x2c1a5e40] mmco: unref short failure
+[h264 @ 0x2c1a5e40] mmco: unref short failure
+[h264 @ 0x2c1a5e40] mmco: unref short failure
+  2%|▏         | 105/5970 [1:00:51<69:33:58, 42.70s/it]                                                         2%|▏         | 105/5970 [1:00:51<69:33:58, 42.70s/it][h264 @ 0x3b6c2100] mmco: unref short failure
+[h264 @ 0x3b6c2100] mmco: unref short failure
+  2%|▏         | 106/5970 [1:01:32<68:42:36, 42.18s/it]                                                         2%|▏         | 106/5970 [1:01:32<68:42:36, 42.18s/it][h264 @ 0x3b6c2100] mmco: unref short failure
+[h264 @ 0x3b6c2100] mmco: unref short failure
+  2%|▏         | 107/5970 [1:02:11<67:02:58, 41.17s/it]                                                         2%|▏         | 107/5970 [1:02:11<67:02:58, 41.17s/it][h264 @ 0xb48c7080] mmco: unref short failure
+[h264 @ 0xb48c7080] mmco: unref short failure
+  2%|▏         | 108/5970 [1:02:19<50:53:30, 31.25s/it]                                                         2%|▏         | 108/5970 [1:02:19<50:53:30, 31.25s/it][h264 @ 0xd7b4e3c0] mmco: unref short failure
+[h264 @ 0xd7b4e3c0] mmco: unref short failure
+[h264 @ 0xd7b4e3c0] mmco: unref short failure
+[h264 @ 0xd7b4e3c0] mmco: unref short failure
+[h264 @ 0xd7b4e3c0] mmco: unref short failure
+[h264 @ 0xd7b4e3c0] mmco: unref short failure
+[h264 @ 0x5560d500] mmco: unref short failure
+[h264 @ 0x5560d500] mmco: unref short failure
+[h264 @ 0x5560d500] mmco: unref short failure
+[h264 @ 0x5560d500] mmco: unref short failure
+[h264 @ 0x5560d500] mmco: unref short failure
+[h264 @ 0x5560d500] mmco: unref short failure
+  2%|▏         | 109/5970 [1:02:46<48:52:14, 30.02s/it]                                                         2%|▏         | 109/5970 [1:02:46<48:52:14, 30.02s/it][h264 @ 0x34619900] mmco: unref short failure
+[h264 @ 0x34619900] mmco: unref short failure
+[h264 @ 0x2735cf40] mmco: unref short failure
+[h264 @ 0x56303340] mmco: unref short failure
+[h264 @ 0x56303340] mmco: unref short failure
+[h264 @ 0x34619900] mmco: unref short failure
+[h264 @ 0x34619900] mmco: unref short failure
+[h264 @ 0x4fd40040] mmco: unref short failure
+[h264 @ 0x56303340] mmco: unref short failure
+[h264 @ 0x56303340] mmco: unref short failure
+[h264 @ 0x2b6c8680] mmco: unref short failure
+[h264 @ 0x2b6c8680] mmco: unref short failure
+[h264 @ 0x2b6c8680] mmco: unref short failure
+  2%|▏         | 110/5970 [1:03:17<49:21:34, 30.32s/it]                                                         2%|▏         | 110/5970 [1:03:17<49:21:34, 30.32s/it][h264 @ 0x53dc0e40] mmco: unref short failure
+[h264 @ 0x53dc0e40] mmco: unref short failure
+[h264 @ 0x8f77a500] mmco: unref short failure
+[h264 @ 0x8f77a500] mmco: unref short failure
+[h264 @ 0x8f77a500] mmco: unref short failure
+[h264 @ 0x8f77a500] mmco: unref short failure
+[h264 @ 0x8f77a500] mmco: unref short failure
+[h264 @ 0x8f77a500] mmco: unref short failure
+[h264 @ 0x53dc0e40] mmco: unref short failure
+[h264 @ 0x53dc0e40] mmco: unref short failure
+[h264 @ 0xb4acd1c0] mmco: unref short failure
+[h264 @ 0x8e7283c0] mmco: unref short failure
+[h264 @ 0x8e7283c0] mmco: unref short failure
+[h264 @ 0x8e7283c0] mmco: unref short failure
+[h264 @ 0x8e7283c0] mmco: unref short failure
+[h264 @ 0x8e7283c0] mmco: unref short failure
+[h264 @ 0x8e7283c0] mmco: unref short failure
+[h264 @ 0xb4acd1c0] mmco: unref short failure
+[h264 @ 0xb4acd1c0] mmco: unref short failure
+[h264 @ 0x92979dc0] mmco: unref short failure
+[h264 @ 0x92979dc0] mmco: unref short failure
+[h264 @ 0x92979dc0] mmco: unref short failure
+[h264 @ 0x325a7280] mmco: unref short failure
+[h264 @ 0x325a7280] mmco: unref short failure
+[h264 @ 0x325a7280] Missing reference picture, default is 65530
+[h264 @ 0x325a7280] mmco: unref short failure
+[h264 @ 0x325a7280] mmco: unref short failure
+[h264 @ 0x325a7280] mmco: unref short failure
+[h264 @ 0x10c46f9c0] mmco: unref short failure
+  2%|▏         | 111/5970 [1:03:50<50:32:39, 31.06s/it]                                                         2%|▏         | 111/5970 [1:03:50<50:32:39, 31.06s/it][h264 @ 0xacca9bc0] mmco: unref short failure
+[h264 @ 0xacca9bc0] mmco: unref short failure
+[h264 @ 0xacca9bc0] mmco: unref short failure
+[h264 @ 0xacca9bc0] mmco: unref short failure
+[h264 @ 0xf5909e40] mmco: unref short failure
+  2%|▏         | 112/5970 [1:04:14<46:59:28, 28.88s/it]                                                         2%|▏         | 112/5970 [1:04:14<46:59:28, 28.88s/it][h264 @ 0xa29cd240] mmco: unref short failure
+  2%|▏         | 113/5970 [1:04:57<54:09:23, 33.29s/it]                                                         2%|▏         | 113/5970 [1:04:57<54:09:23, 33.29s/it][h264 @ 0xacca9bc0] mmco: unref short failure
+[h264 @ 0xacca9bc0] mmco: unref short failure
+[h264 @ 0x59650540] mmco: unref short failure
+[h264 @ 0xacca9bc0] mmco: unref short failure
+[h264 @ 0xacca9bc0] mmco: unref short failure
+[h264 @ 0xb4959200] mmco: unref short failure
+[h264 @ 0xb4959200] mmco: unref short failure
+[h264 @ 0xb4959200] mmco: unref short failure
+[h264 @ 0xb4959200] mmco: unref short failure
+[h264 @ 0xb4959200] mmco: unref short failure
+[h264 @ 0xb4959200] mmco: unref short failure
+[h264 @ 0xa03bda00] mmco: unref short failure
+[h264 @ 0xa03bda00] mmco: unref short failure
+[h264 @ 0xa03bda00] mmco: unref short failure
+[h264 @ 0xad941ac0] mmco: unref short failure
+[h264 @ 0xad941ac0] mmco: unref short failure
+[h264 @ 0xad941ac0] mmco: unref short failure
+[h264 @ 0xad941ac0] mmco: unref short failure
+[h264 @ 0xad941ac0] mmco: unref short failure
+[h264 @ 0xad941ac0] mmco: unref short failure
+[h264 @ 0xa03bda00] mmco: unref short failure
+[h264 @ 0xa03bda00] mmco: unref short failure
+[h264 @ 0xa03bda00] mmco: unref short failure
+  2%|▏         | 114/5970 [1:05:11<44:23:49, 27.29s/it]                                                         2%|▏         | 114/5970 [1:05:11<44:23:49, 27.29s/it][h264 @ 0x5be4ea00] mmco: unref short failure
+[h264 @ 0x5be4ea00] mmco: unref short failure
+[h264 @ 0x5be4ea00] mmco: unref short failure
+[h264 @ 0x5be4ea00] mmco: unref short failure
+[h264 @ 0xa4bafe40] mmco: unref short failure
+[h264 @ 0xa4bafe40] mmco: unref short failure
+  2%|▏         | 115/5970 [1:05:51<50:42:01, 31.17s/it]                                                         2%|▏         | 115/5970 [1:05:51<50:42:01, 31.17s/it][h264 @ 0xb0fa4840] mmco: unref short failure
+[h264 @ 0xb0fa4840] mmco: unref short failure
+[h264 @ 0x90e8e440] mmco: unref short failure
+[h264 @ 0x90e8e440] mmco: unref short failure
+[h264 @ 0x5e4d0200] mmco: unref short failure
+[h264 @ 0x4a550940] mmco: unref short failure
+[h264 @ 0x4a550940] mmco: unref short failure
+[h264 @ 0x5e4d0200] mmco: unref short failure
+[h264 @ 0x5e4d0200] mmco: unref short failure
+[h264 @ 0xaf4c9740] mmco: unref short failure
+[h264 @ 0xaf4c9740] mmco: unref short failure
+[h264 @ 0x76e78080] mmco: unref short failure
+[h264 @ 0x76e78080] mmco: unref short failure
+[h264 @ 0x76e78080] mmco: unref short failure
+  2%|▏         | 116/5970 [1:06:18<48:35:50, 29.89s/it]                                                         2%|▏         | 116/5970 [1:06:18<48:35:50, 29.89s/it][h264 @ 0x32de22c0] mmco: unref short failure
+[h264 @ 0x7ba64d00] mmco: unref short failure
+  2%|▏         | 117/5970 [1:06:49<49:27:41, 30.42s/it]                                                         2%|▏         | 117/5970 [1:06:49<49:27:41, 30.42s/it][h264 @ 0x77450d00] mmco: unref short failure
+[h264 @ 0x77450d00] mmco: unref short failure
+[h264 @ 0x77450d00] mmco: unref short failure
+[h264 @ 0xa7176500] mmco: unref short failure
+[h264 @ 0xa7176500] mmco: unref short failure
+[h264 @ 0xa7176500] mmco: unref short failure
+  2%|▏         | 118/5970 [1:07:03<41:25:00, 25.48s/it]                                                         2%|▏         | 118/5970 [1:07:03<41:25:00, 25.48s/it][h264 @ 0x2c28a840] mmco: unref short failure
+  2%|▏         | 119/5970 [1:08:26<69:13:53, 42.60s/it]                                                         2%|▏         | 119/5970 [1:08:26<69:13:53, 42.60s/it][h264 @ 0x450f7f40] mmco: unref short failure
+[h264 @ 0x450f7f40] mmco: unref short failure
+[h264 @ 0xa3d4ce80] mmco: unref short failure
+[h264 @ 0xa3d4ce80] mmco: unref short failure
+[h264 @ 0x2e965b40] mmco: unref short failure
+[h264 @ 0xa3d4ce80] mmco: unref short failure
+[h264 @ 0x807c41c0] mmco: unref short failure
+[h264 @ 0xa3d4ce80] mmco: unref short failure
+[h264 @ 0xa3d4ce80] mmco: unref short failure
+[h264 @ 0xa3d4ce80] mmco: unref short failure
+  2%|▏         | 120/5970 [1:08:35<52:55:40, 32.57s/it]                                                         2%|▏         | 120/5970 [1:08:35<52:55:40, 32.57s/it][h264 @ 0xa3d4ce80] mmco: unref short failure
+[h264 @ 0xa3d4ce80] mmco: unref short failure
+[h264 @ 0xa3d4ce80] mmco: unref short failure
+[h264 @ 0xa3d4ce80] mmco: unref short failure
+[h264 @ 0xa3d4ce80] mmco: unref short failure
+[h264 @ 0xa3d4ce80] mmco: unref short failure
+[h264 @ 0x5ee68340] mmco: unref short failure
+[h264 @ 0x5ee68340] mmco: unref short failure
+[h264 @ 0x5ee68340] mmco: unref short failure
+[h264 @ 0x5ee68340] mmco: unref short failure
+[h264 @ 0x5ee68340] mmco: unref short failure
+[h264 @ 0x5ee68340] mmco: unref short failure
+[h264 @ 0x5ee68340] mmco: unref short failure
+[h264 @ 0x5ee68340] mmco: unref short failure
+[h264 @ 0x5ee68340] mmco: unref short failure
+[h264 @ 0x5ee68340] mmco: unref short failure
+[h264 @ 0xa83f1a40] mmco: unref short failure
+[h264 @ 0xa83f1a40] mmco: unref short failure
+[h264 @ 0xa83f1a40] mmco: unref short failure
+[h264 @ 0x8de2cc80] mmco: unref short failure
+[h264 @ 0x8de2cc80] mmco: unref short failure
+[h264 @ 0x8de2cc80] mmco: unref short failure
+  2%|▏         | 121/5970 [1:09:17<57:32:37, 35.42s/it]                                                         2%|▏         | 121/5970 [1:09:17<57:32:37, 35.42s/it]  2%|▏         | 122/5970 [1:10:14<67:43:34, 41.69s/it]                                                         2%|▏         | 122/5970 [1:10:14<67:43:34, 41.69s/it][h264 @ 0x4f9763c0] mmco: unref short failure
+[h264 @ 0x4f9763c0] mmco: unref short failure
+[h264 @ 0x3ac5f300] mmco: unref short failure
+[h264 @ 0x3ac5f300] mmco: unref short failure
+[h264 @ 0x3ac5f300] mmco: unref short failure
+[h264 @ 0xcc5af800] mmco: unref short failure
+[h264 @ 0xcc5af800] mmco: unref short failure
+[h264 @ 0xcc5af800] mmco: unref short failure
+  2%|▏         | 123/5970 [1:11:40<89:28:59, 55.09s/it]                                                         2%|▏         | 123/5970 [1:11:40<89:28:59, 55.09s/it]  2%|▏         | 124/5970 [1:11:50<67:34:41, 41.62s/it]                                                         2%|▏         | 124/5970 [1:11:50<67:34:41, 41.62s/it][h264 @ 0xc0674b80] mmco: unref short failure
+[h264 @ 0xc0674b80] mmco: unref short failure
+[h264 @ 0xb975b100] mmco: unref short failure
+[h264 @ 0xc0674b80] mmco: unref short failure
+[h264 @ 0xc0674b80] mmco: unref short failure
+[h264 @ 0x3ac5f300] mmco: unref short failure
+[h264 @ 0x8083a500] mmco: unref short failure
+[h264 @ 0x8083a500] mmco: unref short failure
+[h264 @ 0x8083a500] mmco: unref short failure
+[h264 @ 0x8083a500] mmco: unref short failure
+  2%|▏         | 125/5970 [1:12:28<65:57:42, 40.63s/it]                                                         2%|▏         | 125/5970 [1:12:28<65:57:42, 40.63s/it]  2%|▏         | 126/5970 [1:12:41<52:32:45, 32.37s/it]                                                         2%|▏         | 126/5970 [1:12:41<52:32:45, 32.37s/it][h264 @ 0x261a9540] mmco: unref short failure
+  2%|▏         | 127/5970 [1:14:00<75:07:57, 46.29s/it]                                                         2%|▏         | 127/5970 [1:14:00<75:07:57, 46.29s/it][h264 @ 0x87dd5540] mmco: unref short failure
+[h264 @ 0x87dd5540] mmco: unref short failure
+[h264 @ 0x94a6a700] mmco: unref short failure
+[h264 @ 0x94a6a700] mmco: unref short failure
+[h264 @ 0x87dd5540] mmco: unref short failure
+[h264 @ 0x94e6ab80] mmco: unref short failure
+[h264 @ 0x87dd5540] mmco: unref short failure
+[h264 @ 0x87dd5540] mmco: unref short failure
+[h264 @ 0x87dd5540] mmco: unref short failure
+[h264 @ 0x94e6ab80] mmco: unref short failure
+[h264 @ 0x94e6ab80] mmco: unref short failure
+[h264 @ 0x2f4a3140] mmco: unref short failure
+[h264 @ 0x2f4a3140] mmco: unref short failure
+[h264 @ 0x3c63ab80] mmco: unref short failure
+[h264 @ 0x3c63ab80] mmco: unref short failure
+[h264 @ 0x3c63ab80] mmco: unref short failure
+  2%|▏         | 128/5970 [1:14:10<57:07:46, 35.20s/it]                                                         2%|▏         | 128/5970 [1:14:10<57:07:46, 35.20s/it][h264 @ 0x2ecdd100] mmco: unref short failure
+[h264 @ 0x2ecdd100] mmco: unref short failure
+[h264 @ 0x56cdba80] mmco: unref short failure
+[h264 @ 0x56cdba80] mmco: unref short failure
+[h264 @ 0xa7176500] mmco: unref short failure
+[h264 @ 0xa7176500] mmco: unref short failure
+[h264 @ 0xa7176500] mmco: unref short failure
+[h264 @ 0xa09db880] mmco: unref short failure
+[h264 @ 0xa09db880] mmco: unref short failure
+[h264 @ 0x29a02100] mmco: unref short failure
+[h264 @ 0x29a02100] mmco: unref short failure
+[h264 @ 0xd1867b40] mmco: unref short failure
+  2%|▏         | 129/5970 [1:14:42<55:50:38, 34.42s/it]                                                         2%|▏         | 129/5970 [1:14:42<55:50:38, 34.42s/it][h264 @ 0x5aeee380] mmco: unref short failure
+[h264 @ 0x5aeee380] mmco: unref short failure
+[h264 @ 0x4923c840] mmco: unref short failure
+[h264 @ 0x4923c840] mmco: unref short failure
+[h264 @ 0x4923c840] mmco: unref short failure
+[h264 @ 0x4923c840] mmco: unref short failure
+[h264 @ 0x4b54fcc0] mmco: unref short failure
+[h264 @ 0x4b54fcc0] mmco: unref short failure
+[h264 @ 0x4b54fcc0] mmco: unref short failure
+[h264 @ 0x4b54fcc0] mmco: unref short failure
+  2%|▏         | 130/5970 [1:15:02<48:57:43, 30.18s/it]                                                         2%|▏         | 130/5970 [1:15:02<48:57:43, 30.18s/it][h264 @ 0xae909a40] mmco: unref short failure
+[h264 @ 0x37c71600] mmco: unref short failure
+[h264 @ 0x37c71600] mmco: unref short failure
+[h264 @ 0xde6b2500] mmco: unref short failure
+[h264 @ 0xae909a40] mmco: unref short failure
+[h264 @ 0xde6b2500] mmco: unref short failure
+[h264 @ 0xde6b2500] mmco: unref short failure
+[h264 @ 0x37c71600] mmco: unref short failure
+[h264 @ 0xde6b2500] mmco: unref short failure
+  2%|▏         | 131/5970 [1:15:14<39:56:28, 24.63s/it]                                                         2%|▏         | 131/5970 [1:15:14<39:56:28, 24.63s/it][h264 @ 0x89714c00] mmco: unref short failure
+[h264 @ 0x89714c00] mmco: unref short failure
+[h264 @ 0x79e4b280] mmco: unref short failure
+[h264 @ 0x79e4b280] mmco: unref short failure
+[h264 @ 0x89714c00] mmco: unref short failure
+[h264 @ 0x89714c00] mmco: unref short failure
+[h264 @ 0x7cc40c80] mmco: unref short failure
+[h264 @ 0x7cc40c80] mmco: unref short failure
+[h264 @ 0x8e054040] mmco: unref short failure
+[h264 @ 0x8e054040] mmco: unref short failure
+[h264 @ 0x8e054040] mmco: unref short failure
+[h264 @ 0xace32980] mmco: unref short failure
+[h264 @ 0xace32980] mmco: unref short failure
+[h264 @ 0xace32980] mmco: unref short failure
+[h264 @ 0xace32980] mmco: unref short failure
+[h264 @ 0x70368b00] mmco: unref short failure
+[h264 @ 0x70368b00] mmco: unref short failure
+[h264 @ 0x70368b00] mmco: unref short failure
+  2%|▏         | 132/5970 [1:16:02<51:15:15, 31.61s/it]                                                         2%|▏         | 132/5970 [1:16:02<51:15:15, 31.61s/it][h264 @ 0x87dd5540] mmco: unref short failure
+[h264 @ 0x70368b00] mmco: unref short failure
+[h264 @ 0x578eac80] mmco: unref short failure
+[h264 @ 0x578eac80] mmco: unref short failure
+[h264 @ 0x578eac80] mmco: unref short failure
+[h264 @ 0x87dd5540] mmco: unref short failure
+[h264 @ 0x94e6ab80] mmco: unref short failure
+[h264 @ 0x94e6ab80] mmco: unref short failure
+[h264 @ 0x94e6ab80] mmco: unref short failure
+[h264 @ 0x94e6ab80] mmco: unref short failure
+[h264 @ 0x121216340] mmco: unref short failure
+[h264 @ 0x87dd5540] mmco: unref short failure
+[h264 @ 0x121216340] mmco: unref short failure
+[h264 @ 0x121216340] mmco: unref short failure
+[h264 @ 0xa1fcbf80] mmco: unref short failure
+[h264 @ 0xa1fcbf80] mmco: unref short failure
+[h264 @ 0xa1fcbf80] mmco: unref short failure
+[h264 @ 0xa1fcbf80] mmco: unref short failure
+  2%|▏         | 133/5970 [1:16:12<40:37:20, 25.05s/it]                                                         2%|▏         | 133/5970 [1:16:12<40:37:20, 25.05s/it]  2%|▏         | 134/5970 [1:17:19<61:15:18, 37.79s/it]                                                         2%|▏         | 134/5970 [1:17:19<61:15:18, 37.79s/it]  2%|▏         | 135/5970 [1:18:14<69:16:45, 42.74s/it]                                                         2%|▏         | 135/5970 [1:18:14<69:16:45, 42.74s/it][h264 @ 0x683309c0] mmco: unref short failure
+[h264 @ 0x110a7a6c0] mmco: unref short failure
+[h264 @ 0x454d1140] mmco: unref short failure
+[h264 @ 0x454d1140] mmco: unref short failure
+[h264 @ 0x454d1140] mmco: unref short failure
+[h264 @ 0x454d1140] mmco: unref short failure
+[h264 @ 0x454d1140] mmco: unref short failure
+[h264 @ 0x454d1140] mmco: unref short failure
+[h264 @ 0x454d1140] mmco: unref short failure
+[h264 @ 0x8d2ccdc0] mmco: unref short failure
+  2%|▏         | 136/5970 [1:18:42<62:19:35, 38.46s/it]                                                         2%|▏         | 136/5970 [1:18:42<62:19:35, 38.46s/it][h264 @ 0x540a6d40] mmco: unref short failure
+[h264 @ 0x540a6d40] mmco: unref short failure
+[h264 @ 0x540a6d40] mmco: unref short failure
+[h264 @ 0x540a6d40] mmco: unref short failure
+[h264 @ 0x32214880] mmco: unref short failure
+[h264 @ 0x32214880] mmco: unref short failure
+[h264 @ 0x32214880] mmco: unref short failure
+[h264 @ 0x94a24300] mmco: unref short failure
+[h264 @ 0x94a24300] mmco: unref short failure
+[h264 @ 0x37b57440] mmco: unref short failure
+[h264 @ 0x37b57440] mmco: unref short failure
+  2%|▏         | 137/5970 [1:19:39<71:21:35, 44.04s/it]                                                         2%|▏         | 137/5970 [1:19:39<71:21:35, 44.04s/it]  2%|▏         | 138/5970 [1:20:02<61:05:38, 37.71s/it]                                                         2%|▏         | 138/5970 [1:20:02<61:05:38, 37.71s/it][h264 @ 0x72532ac0] mmco: unref short failure
+[h264 @ 0x85cf1bc0] mmco: unref short failure
+[h264 @ 0x85cf1bc0] mmco: unref short failure
+[h264 @ 0x72532ac0] mmco: unref short failure
+[h264 @ 0xa4df53c0] Missing reference picture, default is 65530
+[h264 @ 0xa4df53c0] mmco: unref short failure
+[h264 @ 0xa4df53c0] mmco: unref short failure
+[h264 @ 0x85cf1bc0] mmco: unref short failure
+[h264 @ 0x85cf1bc0] mmco: unref short failure
+[h264 @ 0xa4df53c0] mmco: unref short failure
+[h264 @ 0xa4df53c0] mmco: unref short failure
+[h264 @ 0xa4df53c0] mmco: unref short failure
+[h264 @ 0xa4df53c0] mmco: unref short failure
+[h264 @ 0xa4df53c0] mmco: unref short failure
+[h264 @ 0xa4df53c0] mmco: unref short failure
+[h264 @ 0xa4df53c0] mmco: unref short failure
+[h264 @ 0x85cf1bc0] mmco: unref short failure
+[h264 @ 0x85cf1bc0] mmco: unref short failure
+[h264 @ 0x85cf1bc0] mmco: unref short failure
+[h264 @ 0x85cf1bc0] mmco: unref short failure
+[h264 @ 0xc64ba040] mmco: unref short failure
+[h264 @ 0x73b5abc0] mmco: unref short failure
+[h264 @ 0x96f36a00] mmco: unref short failure
+[h264 @ 0x85cf1bc0] mmco: unref short failure
+[h264 @ 0x85cf1bc0] mmco: unref short failure
+[h264 @ 0x439275c0] mmco: unref short failure
+  2%|▏         | 139/5970 [1:20:50<65:53:15, 40.68s/it]                                                         2%|▏         | 139/5970 [1:20:50<65:53:15, 40.68s/it][h264 @ 0x88bb2540] mmco: unref short failure
+[h264 @ 0x5a7c9f80] mmco: unref short failure
+  2%|▏         | 140/5970 [1:21:04<53:16:57, 32.90s/it]                                                         2%|▏         | 140/5970 [1:21:04<53:16:57, 32.90s/it][h264 @ 0x26367940] mmco: unref short failure
+[h264 @ 0x26367940] mmco: unref short failure
+[h264 @ 0x26367940] mmco: unref short failure
+[h264 @ 0xa4718300] mmco: unref short failure
+[h264 @ 0xa4718300] mmco: unref short failure
+[h264 @ 0xa4718300] mmco: unref short failure
+[h264 @ 0xb31b6ec0] mmco: unref short failure
+  2%|▏         | 141/5970 [1:22:09<68:47:06, 42.48s/it]                                                         2%|▏         | 141/5970 [1:22:09<68:47:06, 42.48s/it][h264 @ 0x93b480c0] mmco: unref short failure
+[h264 @ 0x845f2ec0] mmco: unref short failure
+[h264 @ 0x845f2ec0] mmco: unref short failure
+[h264 @ 0x845f2ec0] mmco: unref short failure
+[h264 @ 0x26224ec0] mmco: unref short failure
+[h264 @ 0x26224ec0] mmco: unref short failure
+  2%|▏         | 142/5970 [1:22:22<54:17:07, 33.53s/it]                                                         2%|▏         | 142/5970 [1:22:22<54:17:07, 33.53s/it][h264 @ 0x2f753440] mmco: unref short failure
+[h264 @ 0x2f753440] mmco: unref short failure
+[h264 @ 0x2f753440] mmco: unref short failure
+[h264 @ 0x2f753440] mmco: unref short failure
+[h264 @ 0x2f753440] mmco: unref short failure
+[h264 @ 0x2f753440] mmco: unref short failure
+[h264 @ 0x2f753440] mmco: unref short failure
+[h264 @ 0x4dd389c0] mmco: unref short failure
+[h264 @ 0x4dd389c0] mmco: unref short failure
+[h264 @ 0x4dd389c0] mmco: unref short failure
+[h264 @ 0x26228cc0] mmco: unref short failure
+  2%|▏         | 143/5970 [1:22:31<42:12:07, 26.07s/it]                                                         2%|▏         | 143/5970 [1:22:31<42:12:07, 26.07s/it][h264 @ 0x130171640] mmco: unref short failure
+[h264 @ 0x130171640] mmco: unref short failure
+[h264 @ 0x5a7c9f80] mmco: unref short failure
+[h264 @ 0x5a7c9f80] mmco: unref short failure
+  2%|▏         | 144/5970 [1:23:20<53:39:11, 33.15s/it]                                                         2%|▏         | 144/5970 [1:23:20<53:39:11, 33.15s/it][h264 @ 0x2c28a840] mmco: unref short failure
+[h264 @ 0x2c28a840] mmco: unref short failure
+[h264 @ 0x2c28a840] mmco: unref short failure
+[h264 @ 0x2c28a840] mmco: unref short failure
+[h264 @ 0xabc732c0] mmco: unref short failure
+[h264 @ 0xabc732c0] mmco: unref short failure
+[h264 @ 0xabc732c0] mmco: unref short failure
+[h264 @ 0xabc732c0] mmco: unref short failure
+  2%|▏         | 145/5970 [1:24:11<62:15:57, 38.48s/it]                                                         2%|▏         | 145/5970 [1:24:11<62:15:57, 38.48s/it][h264 @ 0x71122340] mmco: unref short failure
+[h264 @ 0x71122340] mmco: unref short failure
+[h264 @ 0x71122340] mmco: unref short failure
+[h264 @ 0x71122340] mmco: unref short failure
+[h264 @ 0x71122340] mmco: unref short failure
+[h264 @ 0x540a6d40] mmco: unref short failure
+[h264 @ 0x540a6d40] mmco: unref short failure
+[h264 @ 0x540a6d40] mmco: unref short failure
+[h264 @ 0x540a6d40] mmco: unref short failure
+[h264 @ 0x540a6d40] mmco: unref short failure
+  2%|▏         | 146/5970 [1:24:33<54:12:36, 33.51s/it]                                                         2%|▏         | 146/5970 [1:24:33<54:12:36, 33.51s/it][h264 @ 0x1099003c0] mmco: unref short failure
+[h264 @ 0x1099003c0] mmco: unref short failure
+[h264 @ 0x37b57440] mmco: unref short failure
+[h264 @ 0x37b57440] mmco: unref short failure
+[h264 @ 0x5ca9f740] mmco: unref short failure
+[h264 @ 0x5ca9f740] mmco: unref short failure
+[h264 @ 0x691690c0] mmco: unref short failure
+[h264 @ 0x691690c0] mmco: unref short failure
+[h264 @ 0x691690c0] mmco: unref short failure
+[h264 @ 0x3cda3100] mmco: unref short failure
+[h264 @ 0x3cda3100] mmco: unref short failure
+[h264 @ 0x3cda3100] mmco: unref short failure
+[h264 @ 0x5b6cf2c0] mmco: unref short failure
+[h264 @ 0x5b6cf2c0] mmco: unref short failure
+[h264 @ 0x70734d40] mmco: unref short failure
+[h264 @ 0x70734d40] mmco: unref short failure
+  2%|▏         | 147/5970 [1:25:08<55:04:31, 34.05s/it]                                                         2%|▏         | 147/5970 [1:25:08<55:04:31, 34.05s/it][h264 @ 0xdb61cd40] mmco: unref short failure
+[h264 @ 0x93bf8040] mmco: unref short failure
+  2%|▏         | 148/5970 [1:26:11<69:02:17, 42.69s/it]                                                         2%|▏         | 148/5970 [1:26:11<69:02:17, 42.69s/it][h264 @ 0x8ab605c0] mmco: unref short failure
+  2%|▏         | 149/5970 [1:26:39<61:35:54, 38.10s/it]                                                         2%|▏         | 149/5970 [1:26:39<61:35:54, 38.10s/it]  3%|▎         | 150/5970 [1:27:05<55:59:59, 34.64s/it]                                                         3%|▎         | 150/5970 [1:27:05<55:59:59, 34.64s/it]  3%|▎         | 151/5970 [1:27:48<59:48:13, 37.00s/it]                                                         3%|▎         | 151/5970 [1:27:48<59:48:13, 37.00s/it][h264 @ 0x82aa62c0] mmco: unref short failure
+[h264 @ 0xe2578c00] mmco: unref short failure
+[h264 @ 0x82bdb840] mmco: unref short failure
+[h264 @ 0x82bdb840] mmco: unref short failure
+[h264 @ 0x7dc13480] mmco: unref short failure
+[h264 @ 0x501dd840] mmco: unref short failure
+  3%|▎         | 152/5970 [1:28:35<64:50:14, 40.12s/it]                                                         3%|▎         | 152/5970 [1:28:35<64:50:14, 40.12s/it][h264 @ 0x6b78ae40] mmco: unref short failure
+[h264 @ 0x6b78ae40] mmco: unref short failure
+  3%|▎         | 153/5970 [1:28:49<52:12:37, 32.31s/it]                                                         3%|▎         | 153/5970 [1:28:49<52:12:37, 32.31s/it]  3%|▎         | 154/5970 [1:29:30<56:14:28, 34.81s/it]                                                         3%|▎         | 154/5970 [1:29:31<56:14:28, 34.81s/it][h264 @ 0xac6ee080] mmco: unref short failure
+[h264 @ 0xac6ee080] mmco: unref short failure
+[h264 @ 0xcdb1d980] mmco: unref short failure
+[h264 @ 0xcdb1d980] mmco: unref short failure
+[h264 @ 0x58821400] mmco: unref short failure
+[h264 @ 0x8a310d40] mmco: unref short failure
+[h264 @ 0xa055c0c0] mmco: unref short failure
+[h264 @ 0x8a310d40] mmco: unref short failure
+  3%|▎         | 155/5970 [1:29:55<51:27:57, 31.86s/it]                                                         3%|▎         | 155/5970 [1:29:55<51:27:57, 31.86s/it]  3%|▎         | 156/5970 [1:30:38<56:48:12, 35.17s/it]                                                         3%|▎         | 156/5970 [1:30:38<56:48:12, 35.17s/it][h264 @ 0xa74d4300] mmco: unref short failure
+[h264 @ 0xa74d4300] mmco: unref short failure
+[h264 @ 0x338ace80] mmco: unref short failure
+[h264 @ 0x338ace80] mmco: unref short failure
+[h264 @ 0x338ace80] mmco: unref short failure
+[h264 @ 0x338ace80] mmco: unref short failure
+[h264 @ 0x338ace80] Missing reference picture, default is 65530
+[h264 @ 0x338ace80] Missing reference picture, default is 65530
+[h264 @ 0x338ace80] mmco: unref short failure
+[h264 @ 0x338ace80] mmco: unref short failure
+[h264 @ 0x338ace80] mmco: unref short failure
+[h264 @ 0x338ace80] Missing reference picture, default is 65530
+[h264 @ 0x338ace80] mmco: unref short failure
+[h264 @ 0x338ace80] mmco: unref short failure
+[h264 @ 0x2982de00] mmco: unref short failure
+[h264 @ 0x2982de00] mmco: unref short failure
+[h264 @ 0x2982de00] Missing reference picture, default is 65530
+[h264 @ 0x2982de00] Missing reference picture, default is 65530
+[h264 @ 0x2982de00] mmco: unref short failure
+[h264 @ 0x2982de00] mmco: unref short failure
+[h264 @ 0x2982de00] mmco: unref short failure
+[h264 @ 0x2982de00] Missing reference picture, default is 65530
+[h264 @ 0x2982de00] mmco: unref short failure
+[h264 @ 0x2982de00] mmco: unref short failure
+  3%|▎         | 157/5970 [1:30:57<48:53:12, 30.28s/it]                                                         3%|▎         | 157/5970 [1:30:57<48:53:12, 30.28s/it]  3%|▎         | 158/5970 [1:31:43<56:36:07, 35.06s/it]                                                         3%|▎         | 158/5970 [1:31:43<56:36:07, 35.06s/it][h264 @ 0x5106e180] mmco: unref short failure
+[h264 @ 0x5106e180] mmco: unref short failure
+[h264 @ 0x5106e180] mmco: unref short failure
+[h264 @ 0x5106e180] mmco: unref short failure
+[h264 @ 0x5106e180] mmco: unref short failure
+[h264 @ 0x5106e180] mmco: unref short failure
+[h264 @ 0x5106e180] mmco: unref short failure
+[h264 @ 0x5106e180] mmco: unref short failure
+[h264 @ 0x5106e180] mmco: unref short failure
+[h264 @ 0x5106e180] mmco: unref short failure
+[h264 @ 0x5106e180] mmco: unref short failure
+[h264 @ 0x5106e180] mmco: unref short failure
+[h264 @ 0x5106e180] mmco: unref short failure
+[h264 @ 0x5106e180] mmco: unref short failure
+[h264 @ 0x5106e180] mmco: unref short failure
+[h264 @ 0x5106e180] mmco: unref short failure
+[h264 @ 0x94e6fd40] mmco: unref short failure
+[h264 @ 0x94e6fd40] mmco: unref short failure
+[h264 @ 0x94e6fd40] mmco: unref short failure
+[h264 @ 0x94e6fd40] mmco: unref short failure
+[h264 @ 0x94e6fd40] mmco: unref short failure
+[h264 @ 0x94e6fd40] mmco: unref short failure
+[h264 @ 0x94e6fd40] mmco: unref short failure
+[h264 @ 0x94e6fd40] mmco: unref short failure
+[h264 @ 0x94e6fd40] mmco: unref short failure
+[h264 @ 0xc25f3880] mmco: unref short failure
+[h264 @ 0xc25f3880] mmco: unref short failure
+[h264 @ 0xc25f3880] mmco: unref short failure
+[h264 @ 0x6cb81900] mmco: unref short failure
+[h264 @ 0xd6674780] mmco: unref short failure
+[h264 @ 0xc25f3880] mmco: unref short failure
+  3%|▎         | 159/5970 [1:32:19<57:19:46, 35.52s/it]                                                         3%|▎         | 159/5970 [1:32:19<57:19:46, 35.52s/it]  3%|▎         | 160/5970 [1:33:08<63:51:28, 39.57s/it]                                                         3%|▎         | 160/5970 [1:33:08<63:51:28, 39.57s/it][h264 @ 0x65260900] mmco: unref short failure
+[h264 @ 0x65260900] mmco: unref short failure
+[h264 @ 0xa2443b40] mmco: unref short failure
+[h264 @ 0xa2443b40] mmco: unref short failure
+[h264 @ 0xa2443b40] mmco: unref short failure
+[h264 @ 0xa2443b40] mmco: unref short failure
+[h264 @ 0x65260900] mmco: unref short failure
+[h264 @ 0xa2443b40] mmco: unref short failure
+[h264 @ 0xa2443b40] mmco: unref short failure
+[h264 @ 0x65260900] Missing reference picture, default is 65530
+[h264 @ 0x65260900] mmco: unref short failure
+[h264 @ 0x65260900] mmco: unref short failure
+[h264 @ 0x65260900] mmco: unref short failure
+[h264 @ 0x65260900] mmco: unref short failure
+[h264 @ 0xd88283c0] mmco: unref short failure
+[h264 @ 0xd88283c0] mmco: unref short failure
+[h264 @ 0xd88283c0] mmco: unref short failure
+[h264 @ 0xd88283c0] mmco: unref short failure
+[h264 @ 0xd88283c0] mmco: unref short failure
+[h264 @ 0xd88283c0] mmco: unref short failure
+[h264 @ 0x5106e180] mmco: unref short failure
+[h264 @ 0x5106e180] mmco: unref short failure
+[h264 @ 0x5106e180] Missing reference picture, default is 65530
+[h264 @ 0x5106e180] mmco: unref short failure
+[h264 @ 0x5106e180] mmco: unref short failure
+[h264 @ 0x5106e180] Missing reference picture, default is 65530
+[h264 @ 0x5106e180] mmco: unref short failure
+[h264 @ 0x5106e180] mmco: unref short failure
+  3%|▎         | 161/5970 [1:33:17<48:49:38, 30.26s/it]                                                         3%|▎         | 161/5970 [1:33:17<48:49:38, 30.26s/it][h264 @ 0x88a06740] mmco: unref short failure
+[h264 @ 0x88a06740] mmco: unref short failure
+[h264 @ 0x88a06740] mmco: unref short failure
+[h264 @ 0x25e31e80] mmco: unref short failure
+[h264 @ 0x25e31e80] mmco: unref short failure
+[h264 @ 0x25e31e80] mmco: unref short failure
+  3%|▎         | 162/5970 [1:34:17<63:22:02, 39.28s/it]                                                         3%|▎         | 162/5970 [1:34:17<63:22:02, 39.28s/it][h264 @ 0x4d94ad80] mmco: unref short failure
+[h264 @ 0xffedbe00] mmco: unref short failure
+[h264 @ 0xffedbe00] mmco: unref short failure
+[h264 @ 0x4d94ad80] mmco: unref short failure
+  3%|▎         | 163/5970 [1:34:25<47:59:19, 29.75s/it]                                                         3%|▎         | 163/5970 [1:34:25<47:59:19, 29.75s/it][h264 @ 0x2cd60280] mmco: unref short failure
+[h264 @ 0x2cd60280] mmco: unref short failure
+[h264 @ 0x540a6d40] mmco: unref short failure
+[h264 @ 0x540a6d40] mmco: unref short failure
+[h264 @ 0x7bb8c240] mmco: unref short failure
+[h264 @ 0x7bb8c240] mmco: unref short failure
+[h264 @ 0x883e5500] mmco: unref short failure
+[h264 @ 0x883e5500] mmco: unref short failure
+[h264 @ 0x75bdfe40] mmco: unref short failure
+[h264 @ 0x75bdfe40] mmco: unref short failure
+  3%|▎         | 164/5970 [1:35:40<70:11:59, 43.53s/it]                                                         3%|▎         | 164/5970 [1:35:40<70:11:59, 43.53s/it][h264 @ 0x47d8a880] mmco: unref short failure
+[h264 @ 0x47d8a880] mmco: unref short failure
+[h264 @ 0x26e1e200] mmco: unref short failure
+[h264 @ 0x47d8a880] mmco: unref short failure
+[h264 @ 0x47d8a880] mmco: unref short failure
+[h264 @ 0x47d8a880] mmco: unref short failure
+[h264 @ 0x86ac96c0] mmco: unref short failure
+[h264 @ 0x47d8a880] mmco: unref short failure
+[h264 @ 0x47d8a880] mmco: unref short failure
+[h264 @ 0x1017a9c40] mmco: unref short failure
+[h264 @ 0x1017a9c40] mmco: unref short failure
+[h264 @ 0x1017a9c40] mmco: unref short failure
+[h264 @ 0x54b49740] mmco: unref short failure
+[h264 @ 0x54b49740] mmco: unref short failure
+[h264 @ 0x54b49740] mmco: unref short failure
+  3%|▎         | 165/5970 [1:36:53<84:18:03, 52.28s/it]                                                         3%|▎         | 165/5970 [1:36:53<84:18:03, 52.28s/it][h264 @ 0xa29cd240] mmco: unref short failure
+[h264 @ 0xa29cd240] mmco: unref short failure
+[h264 @ 0x54b49740] mmco: unref short failure
+[h264 @ 0x54b49740] mmco: unref short failure
+[h264 @ 0x1294f9880] mmco: unref short failure
+[h264 @ 0x1294f9880] mmco: unref short failure
+  3%|▎         | 166/5970 [1:38:00<91:17:45, 56.63s/it]                                                         3%|▎         | 166/5970 [1:38:00<91:17:45, 56.63s/it][h264 @ 0x43611f80] mmco: unref short failure
+[h264 @ 0x43611f80] mmco: unref short failure
+[h264 @ 0x43611f80] mmco: unref short failure
+[h264 @ 0x43611f80] mmco: unref short failure
+[h264 @ 0xb1cae300] mmco: unref short failure
+[h264 @ 0xb1cae300] mmco: unref short failure
+[h264 @ 0xb1cae300] mmco: unref short failure
+[h264 @ 0xb1cae300] mmco: unref short failure
+[h264 @ 0xb1cae300] mmco: unref short failure
+  3%|▎         | 167/5970 [1:38:07<67:28:47, 41.86s/it]                                                         3%|▎         | 167/5970 [1:38:07<67:28:47, 41.86s/it][h264 @ 0x9bc18f00] mmco: unref short failure
+[h264 @ 0x9bc18f00] mmco: unref short failure
+[h264 @ 0x9bc18f00] mmco: unref short failure
+[h264 @ 0xcdb1d980] mmco: unref short failure
+[h264 @ 0xcdb1d980] mmco: unref short failure
+[h264 @ 0x4fb76800] mmco: unref short failure
+[h264 @ 0x4fb76800] mmco: unref short failure
+[h264 @ 0x2f6a6880] mmco: unref short failure
+[h264 @ 0x2f6a6880] mmco: unref short failure
+[h264 @ 0x26224ec0] mmco: unref short failure
+[h264 @ 0x26224ec0] mmco: unref short failure
+[h264 @ 0x26224ec0] mmco: unref short failure
+[h264 @ 0x26224ec0] mmco: unref short failure
+[h264 @ 0x68f80c00] mmco: unref short failure
+[h264 @ 0x68f80c00] mmco: unref short failure
+[h264 @ 0x68f80c00] mmco: unref short failure
+[h264 @ 0x14143ab00] mmco: unref short failure
+[h264 @ 0x14143ab00] mmco: unref short failure
+[h264 @ 0x14143ab00] mmco: unref short failure
+  3%|▎         | 168/5970 [1:39:20<82:13:11, 51.02s/it]                                                         3%|▎         | 168/5970 [1:39:20<82:13:11, 51.02s/it][h264 @ 0x54687f00] mmco: unref short failure
+[h264 @ 0x54687f00] mmco: unref short failure
+[h264 @ 0x31103b80] mmco: unref short failure
+[h264 @ 0x31103b80] mmco: unref short failure
+[h264 @ 0x50427c00] mmco: unref short failure
+[h264 @ 0x50427c00] mmco: unref short failure
+  3%|▎         | 169/5970 [1:39:35<65:07:34, 40.42s/it]                                                         3%|▎         | 169/5970 [1:39:35<65:07:34, 40.42s/it]  3%|▎         | 170/5970 [1:40:00<57:42:26, 35.82s/it]                                                         3%|▎         | 170/5970 [1:40:00<57:42:26, 35.82s/it][h264 @ 0x797c1c00] mmco: unref short failure
+[h264 @ 0x797c1c00] mmco: unref short failure
+[h264 @ 0x797c1c00] mmco: unref short failure
+[h264 @ 0x797c1c00] mmco: unref short failure
+[h264 @ 0x797c1c00] mmco: unref short failure
+[h264 @ 0x797c1c00] mmco: unref short failure
+  3%|▎         | 171/5970 [1:40:48<63:19:20, 39.31s/it]                                                         3%|▎         | 171/5970 [1:40:48<63:19:20, 39.31s/it][h264 @ 0x6f1f9200] mmco: unref short failure
+[h264 @ 0x6f1f9200] mmco: unref short failure
+[h264 @ 0x6f1f9200] mmco: unref short failure
+[h264 @ 0x77cdc600] mmco: unref short failure
+[h264 @ 0x77cdc600] mmco: unref short failure
+[h264 @ 0x77cdc600] mmco: unref short failure
+  3%|▎         | 172/5970 [1:41:38<68:34:50, 42.58s/it]                                                         3%|▎         | 172/5970 [1:41:38<68:34:50, 42.58s/it][h264 @ 0x7a93ad80] mmco: unref short failure
+[h264 @ 0x7a93ad80] mmco: unref short failure
+  3%|▎         | 173/5970 [1:41:47<52:18:03, 32.48s/it]                                                         3%|▎         | 173/5970 [1:41:47<52:18:03, 32.48s/it][h264 @ 0x75161c40] mmco: unref short failure
+[h264 @ 0x46dfc580] mmco: unref short failure
+[h264 @ 0x6f335440] mmco: unref short failure
+[h264 @ 0x6f335440] Missing reference picture, default is 65530
+[h264 @ 0x6f335440] mmco: unref short failure
+[h264 @ 0x6f335440] mmco: unref short failure
+[h264 @ 0x6f335440] Missing reference picture, default is 65530
+[h264 @ 0x6f335440] mmco: unref short failure
+[h264 @ 0x6f335440] mmco: unref short failure
+[h264 @ 0x6f335440] mmco: unref short failure
+[h264 @ 0x6f335440] mmco: unref short failure
+[h264 @ 0x6f335440] mmco: unref short failure
+[h264 @ 0x6f335440] mmco: unref short failure
+[h264 @ 0x12cf4b940] mmco: unref short failure
+[h264 @ 0x12cf4b940] Missing reference picture, default is 65530
+[h264 @ 0x12cf4b940] mmco: unref short failure
+[h264 @ 0x12cf4b940] mmco: unref short failure
+[h264 @ 0x12cf4b940] mmco: unref short failure
+[h264 @ 0x12cf4b940] mmco: unref short failure
+  3%|▎         | 174/5970 [1:42:36<60:20:47, 37.48s/it]                                                         3%|▎         | 174/5970 [1:42:36<60:20:47, 37.48s/it][h264 @ 0x414cb680] mmco: unref short failure
+[h264 @ 0x414cb680] mmco: unref short failure
+[h264 @ 0x414cb680] mmco: unref short failure
+[h264 @ 0x414cb680] mmco: unref short failure
+[h264 @ 0x414cb680] mmco: unref short failure
+[h264 @ 0x6da9f580] mmco: unref short failure
+[h264 @ 0x6da9f580] mmco: unref short failure
+[h264 @ 0x6da9f580] mmco: unref short failure
+[h264 @ 0x6da9f580] mmco: unref short failure
+  3%|▎         | 175/5970 [1:43:01<54:02:45, 33.57s/it]                                                         3%|▎         | 175/5970 [1:43:01<54:02:45, 33.57s/it][h264 @ 0x58821400] mmco: unref short failure
+[h264 @ 0x58821400] mmco: unref short failure
+  3%|▎         | 176/5970 [1:43:27<50:44:46, 31.53s/it]                                                         3%|▎         | 176/5970 [1:43:27<50:44:46, 31.53s/it][h264 @ 0x11f125e00] mmco: unref short failure
+[h264 @ 0x11f125e00] mmco: unref short failure
+[h264 @ 0x11f125e00] mmco: unref short failure
+[h264 @ 0x25944d00] mmco: unref short failure
+[h264 @ 0x25944d00] mmco: unref short failure
+[h264 @ 0x25944d00] mmco: unref short failure
+  3%|▎         | 177/5970 [1:44:53<76:50:51, 47.76s/it]                                                         3%|▎         | 177/5970 [1:44:53<76:50:51, 47.76s/it][h264 @ 0x31516300] mmco: unref short failure
+[h264 @ 0x7089d540] mmco: unref short failure
+[h264 @ 0x9c69b900] mmco: unref short failure
+[h264 @ 0x9c69b900] mmco: unref short failure
+[h264 @ 0x9c69b900] mmco: unref short failure
+[h264 @ 0x9c69b900] mmco: unref short failure
+[h264 @ 0x9c69b900] mmco: unref short failure
+[h264 @ 0x9c69b900] mmco: unref short failure
+[h264 @ 0x25689d80] mmco: unref short failure
+[h264 @ 0x25689d80] mmco: unref short failure
+[h264 @ 0x25689d80] mmco: unref short failure
+[h264 @ 0x25689d80] mmco: unref short failure
+[h264 @ 0x25689d80] mmco: unref short failure
+[h264 @ 0x25689d80] mmco: unref short failure
+  3%|▎         | 178/5970 [1:45:05<59:27:00, 36.95s/it]                                                         3%|▎         | 178/5970 [1:45:07<59:27:00, 36.95s/it][h264 @ 0x693f8a40] mmco: unref short failure
+[h264 @ 0x693f8a40] mmco: unref short failure
+[h264 @ 0x693f8a40] mmco: unref short failure
+[h264 @ 0x693f8a40] mmco: unref short failure
+[h264 @ 0x693f8a40] mmco: unref short failure
+[h264 @ 0x693f8a40] mmco: unref short failure
+[h264 @ 0x693f8a40] mmco: unref short failure
+[h264 @ 0x693f8a40] mmco: unref short failure
+[h264 @ 0x693f8a40] mmco: unref short failure
+[h264 @ 0x693f8a40] mmco: unref short failure
+[h264 @ 0x693f8a40] mmco: unref short failure
+[h264 @ 0x7a5a8980] mmco: unref short failure
+[h264 @ 0x7a5a8980] mmco: unref short failure
+[h264 @ 0x7a5a8980] mmco: unref short failure
+[h264 @ 0x7a5a8980] mmco: unref short failure
+[h264 @ 0x7a5a8980] mmco: unref short failure
+[h264 @ 0x7a5a8980] mmco: unref short failure
+[h264 @ 0x7a5a8980] mmco: unref short failure
+[h264 @ 0x7a5a8980] mmco: unref short failure
+[h264 @ 0x7a5a8980] mmco: unref short failure
+  3%|▎         | 179/5970 [1:46:08<72:13:14, 44.90s/it]                                                         3%|▎         | 179/5970 [1:46:08<72:13:14, 44.90s/it][h264 @ 0x7d08ed80] mmco: unref short failure
+[h264 @ 0x7d08ed80] mmco: unref short failure
+[h264 @ 0x7d08ed80] mmco: unref short failure
+[h264 @ 0x7d08ed80] mmco: unref short failure
+[h264 @ 0x7d08ed80] mmco: unref short failure
+[h264 @ 0x7d91b040] mmco: unref short failure
+[h264 @ 0x7d08ed80] mmco: unref short failure
+[h264 @ 0x7d91b040] mmco: unref short failure
+[h264 @ 0x7d91b040] mmco: unref short failure
+[h264 @ 0x7d91b040] mmco: unref short failure
+[h264 @ 0x7d91b040] mmco: unref short failure
+[h264 @ 0x7d91b040] mmco: unref short failure
+[h264 @ 0x7d91b040] mmco: unref short failure
+[h264 @ 0x451de700] mmco: unref short failure
+[h264 @ 0x451de700] mmco: unref short failure
+[h264 @ 0x451de700] mmco: unref short failure
+[h264 @ 0x451de700] mmco: unref short failure
+[h264 @ 0x451de700] mmco: unref short failure
+[h264 @ 0x451de700] mmco: unref short failure
+[h264 @ 0x6c43a740] mmco: unref short failure
+[h264 @ 0x6c43a740] mmco: unref short failure
+  3%|▎         | 180/5970 [1:46:19<55:59:01, 34.81s/it]                                                         3%|▎         | 180/5970 [1:46:20<55:59:01, 34.81s/it][h264 @ 0x6c43a740] mmco: unref short failure
+[h264 @ 0x6c43a740] mmco: unref short failure
+[h264 @ 0x82a36bc0] mmco: unref short failure
+[h264 @ 0x82a36bc0] mmco: unref short failure
+  3%|▎         | 181/5970 [1:47:06<61:28:30, 38.23s/it]                                                         3%|▎         | 181/5970 [1:47:06<61:28:30, 38.23s/it]  3%|▎         | 182/5970 [1:47:16<47:51:52, 29.77s/it]                                                         3%|▎         | 182/5970 [1:47:16<47:51:52, 29.77s/it]  3%|▎         | 183/5970 [1:47:33<41:39:04, 25.91s/it]                                                         3%|▎         | 183/5970 [1:47:33<41:39:04, 25.91s/it][h264 @ 0x122f7e140] mmco: unref short failure
+[h264 @ 0x122f7e140] mmco: unref short failure
+[h264 @ 0x4ac4d900] mmco: unref short failure
+[h264 @ 0x4ac4d900] mmco: unref short failure
+[h264 @ 0x122f7e140] mmco: unref short failure
+[h264 @ 0x122f7e140] mmco: unref short failure
+[h264 @ 0x4ac4d900] mmco: unref short failure
+[h264 @ 0x4ac4d900] mmco: unref short failure
+  3%|▎         | 184/5970 [1:47:58<41:17:15, 25.69s/it]                                                         3%|▎         | 184/5970 [1:47:58<41:17:15, 25.69s/it][h264 @ 0xcf836cc0] mmco: unref short failure
+[h264 @ 0xcf836cc0] mmco: unref short failure
+  3%|▎         | 185/5970 [1:48:26<42:20:50, 26.35s/it]                                                         3%|▎         | 185/5970 [1:48:26<42:20:50, 26.35s/it]  3%|▎         | 186/5970 [1:49:19<55:27:06, 34.51s/it]                                                         3%|▎         | 186/5970 [1:49:19<55:27:06, 34.51s/it][h264 @ 0x12d351380] mmco: unref short failure
+[h264 @ 0x12d351380] mmco: unref short failure
+[h264 @ 0x12d351380] mmco: unref short failure
+[h264 @ 0x12d351380] mmco: unref short failure
+[h264 @ 0x12d351380] mmco: unref short failure
+[h264 @ 0x12d351380] mmco: unref short failure
+[h264 @ 0x70d09780] mmco: unref short failure
+[h264 @ 0x70d09780] mmco: unref short failure
+[h264 @ 0x70d09780] mmco: unref short failure
+[h264 @ 0x70d09780] mmco: unref short failure
+[h264 @ 0x70d09780] mmco: unref short failure
+[h264 @ 0x70d09780] mmco: unref short failure
+  3%|▎         | 187/5970 [1:49:28<42:58:54, 26.76s/it]                                                         3%|▎         | 187/5970 [1:49:28<42:58:54, 26.76s/it][h264 @ 0x26674fc0] mmco: unref short failure
+[h264 @ 0x26674fc0] mmco: unref short failure
+[h264 @ 0x248aeec0] mmco: unref short failure
+[h264 @ 0x248aeec0] mmco: unref short failure
+[h264 @ 0x3c3baa00] mmco: unref short failure
+[h264 @ 0x3c3baa00] mmco: unref short failure
+[h264 @ 0x980fa300] mmco: unref short failure
+[h264 @ 0x980fa300] mmco: unref short failure
+  3%|▎         | 188/5970 [1:49:56<43:27:00, 27.05s/it]                                                         3%|▎         | 188/5970 [1:49:56<43:27:00, 27.05s/it][h264 @ 0x2acf3340] mmco: unref short failure
+[h264 @ 0x2acf3340] mmco: unref short failure
+[h264 @ 0x2acf3340] mmco: unref short failure
+[h264 @ 0x2acf3340] mmco: unref short failure
+[h264 @ 0x9fb1f7c0] mmco: unref short failure
+[h264 @ 0x9fb1f7c0] mmco: unref short failure
+  3%|▎         | 189/5970 [1:50:59<60:46:49, 37.85s/it]                                                         3%|▎         | 189/5970 [1:50:59<60:46:49, 37.85s/it][h264 @ 0x1291ab7c0] mmco: unref short failure
+[h264 @ 0x4b300000] mmco: unref short failure
+[h264 @ 0x4b300000] mmco: unref short failure
+[h264 @ 0x82b74500] mmco: unref short failure
+[h264 @ 0x82b74500] mmco: unref short failure
+[h264 @ 0x1291ab7c0] mmco: unref short failure
+[h264 @ 0x1291ab7c0] mmco: unref short failure
+[h264 @ 0x82b74500] mmco: unref short failure
+[h264 @ 0x82b74500] mmco: unref short failure
+[h264 @ 0x1291ab7c0] mmco: unref short failure
+[h264 @ 0xf6356740] mmco: unref short failure
+[h264 @ 0xf6356740] mmco: unref short failure
+[h264 @ 0xf358ec80] mmco: unref short failure
+[h264 @ 0xf358ec80] mmco: unref short failure
+[h264 @ 0x90b07f00] mmco: unref short failure
+[h264 @ 0x90b07f00] mmco: unref short failure
+[h264 @ 0x90b07f00] mmco: unref short failure
+  3%|▎         | 190/5970 [1:51:17<51:34:26, 32.12s/it]                                                         3%|▎         | 190/5970 [1:51:17<51:34:26, 32.12s/it]slurmstepd: error: *** JOB 29473 ON 2FS9B74 CANCELLED AT 2026-02-14T14:41:43 ***
+Exception in thread Thread-9 (_pin_memory_loop):
+Traceback (most recent call last):
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/torch/utils/data/_utils/pin_memory.py", line 59, in _pin_memory_loop
+    do_one_step()
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/torch/utils/data/_utils/pin_memory.py", line 35, in do_one_step
+    r = in_queue.get(timeout=MP_STATUS_CHECK_INTERVAL)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/multiprocessing/queues.py", line 122, in get
+    return _ForkingPickler.loads(res)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/torch/multiprocessing/reductions.py", line 541, in rebuild_storage_fd
+    fd = df.detach()
+         ^^^^^^^^^^^
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/multiprocessing/resource_sharer.py", line 57, in detach
+    with _resource_sharer.get_connection(self._id) as conn:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/multiprocessing/resource_sharer.py", line 86, in get_connection
+    c = Client(address, authkey=process.current_process().authkey)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/multiprocessing/connection.py", line 519, in Client
+    c = SocketClient(address)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/multiprocessing/connection.py", line 647, in SocketClient
+    s.connect(address)
+FileNotFoundError: [Errno 2] No such file or directory
+Exception in thread Thread-9 (_pin_memory_loop):
+Traceback (most recent call last):
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/torch/utils/data/_utils/pin_memory.py", line 59, in _pin_memory_loop
+    do_one_step()
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/torch/utils/data/_utils/pin_memory.py", line 35, in do_one_step
+    r = in_queue.get(timeout=MP_STATUS_CHECK_INTERVAL)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/multiprocessing/queues.py", line 122, in get
+    return _ForkingPickler.loads(res)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/torch/multiprocessing/reductions.py", line 541, in rebuild_storage_fd
+    fd = df.detach()
+         ^^^^^^^^^^^
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/multiprocessing/resource_sharer.py", line 57, in detach
+    with _resource_sharer.get_connection(self._id) as conn:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/multiprocessing/resource_sharer.py", line 86, in get_connection
+    c = Client(address, authkey=process.current_process().authkey)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/multiprocessing/connection.py", line 519, in Client
+    c = SocketClient(address)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/multiprocessing/connection.py", line 647, in SocketClient
+    s.connect(address)
+FileNotFoundError: [Errno 2] No such file or directory
+Exception in thread Thread-9 (_pin_memory_loop):
+Traceback (most recent call last):
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/torch/utils/data/_utils/pin_memory.py", line 59, in _pin_memory_loop
+    do_one_step()
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/torch/utils/data/_utils/pin_memory.py", line 35, in do_one_step
+    r = in_queue.get(timeout=MP_STATUS_CHECK_INTERVAL)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/multiprocessing/queues.py", line 122, in get
+    return _ForkingPickler.loads(res)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/torch/multiprocessing/reductions.py", line 541, in rebuild_storage_fd
+    fd = df.detach()
+         ^^^^^^^^^^^
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/multiprocessing/resource_sharer.py", line 57, in detach
+    with _resource_sharer.get_connection(self._id) as conn:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/multiprocessing/resource_sharer.py", line 86, in get_connection
+    c = Client(address, authkey=process.current_process().authkey)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/multiprocessing/connection.py", line 519, in Client
+    c = SocketClient(address)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/multiprocessing/connection.py", line 647, in SocketClient
+    s.connect(address)
+FileNotFoundError: [Errno 2] No such file or directory
+[rank6]: Traceback (most recent call last):
+[rank6]:   File "/scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/time_r1/sft.py", line 517, in <module>
+[rank6]:     main(script_args, training_args, model_args)
+[rank6]:   File "/scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/time_r1/sft.py", line 464, in main
+[rank6]:     train_result = trainer.train(resume_from_checkpoint=checkpoint)
+[rank6]:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank6]:   File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/transformers/trainer.py", line 2325, in train
+[rank6]:     return inner_training_loop(
+[rank6]:            ^^^^^^^^^^^^^^^^^^^^
+[rank6]:   File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/transformers/trainer.py", line 2618, in _inner_training_loop
+[rank6]:     batch_samples, num_items_in_batch = self.get_batch_samples(epoch_iterator, num_batches, args.device)
+[rank6]:                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank6]:   File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/transformers/trainer.py", line 5654, in get_batch_samples
+[rank6]:     batch_samples.append(next(epoch_iterator))
+[rank6]:                          ^^^^^^^^^^^^^^^^^^^^
+[rank6]:   File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/accelerate/data_loader.py", line 579, in __iter__
+[rank6]:     next_batch = next(dataloader_iter)
+[rank6]:                  ^^^^^^^^^^^^^^^^^^^^^
+[rank6]:   File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/torch/utils/data/dataloader.py", line 708, in __next__
+[rank6]:     data = self._next_data()
+[rank6]:            ^^^^^^^^^^^^^^^^^
+[rank6]:   File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/torch/utils/data/dataloader.py", line 1458, in _next_data
+[rank6]:     idx, data = self._get_data()
+[rank6]:                 ^^^^^^^^^^^^^^^^
+[rank6]:   File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/torch/utils/data/dataloader.py", line 1415, in _get_data
+[rank6]:     raise RuntimeError("Pin memory thread exited unexpectedly")
+[rank6]: RuntimeError: Pin memory thread exited unexpectedly
+Exception in thread Thread-9 (_pin_memory_loop):
+Traceback (most recent call last):
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/torch/utils/data/_utils/pin_memory.py", line 59, in _pin_memory_loop
+    do_one_step()
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/torch/utils/data/_utils/pin_memory.py", line 35, in do_one_step
+    r = in_queue.get(timeout=MP_STATUS_CHECK_INTERVAL)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/multiprocessing/queues.py", line 122, in get
+    return _ForkingPickler.loads(res)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/torch/multiprocessing/reductions.py", line 541, in rebuild_storage_fd
+    fd = df.detach()
+         ^^^^^^^^^^^
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/multiprocessing/resource_sharer.py", line 57, in detach
+    with _resource_sharer.get_connection(self._id) as conn:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/multiprocessing/resource_sharer.py", line 86, in get_connection
+    c = Client(address, authkey=process.current_process().authkey)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/multiprocessing/connection.py", line 519, in Client
+    c = SocketClient(address)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/multiprocessing/connection.py", line 647, in SocketClient
+    s.connect(address)
+FileNotFoundError: [Errno 2] No such file or directory
+Exception in thread Thread-9 (_pin_memory_loop):
+Traceback (most recent call last):
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/torch/utils/data/_utils/pin_memory.py", line 59, in _pin_memory_loop
+    do_one_step()
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/torch/utils/data/_utils/pin_memory.py", line 35, in do_one_step
+    r = in_queue.get(timeout=MP_STATUS_CHECK_INTERVAL)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/multiprocessing/queues.py", line 122, in get
+    return _ForkingPickler.loads(res)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/site-packages/torch/multiprocessing/reductions.py", line 541, in rebuild_storage_fd
+    fd = df.detach()
+         ^^^^^^^^^^^
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/multiprocessing/resource_sharer.py", line 57, in detach
+    with _resource_sharer.get_connection(self._id) as conn:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/multiprocessing/resource_sharer.py", line 86, in get_connection
+    c = Client(address, authkey=process.current_process().authkey)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/multiprocessing/connection.py", line 519, in Client
+    c = SocketClient(address)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/prj0000000262-bucket/ocr/ec/env/lib/python3.11/multiprocessing/connection.py", line 647, in SocketClient
+    s.connect(address)
+FileNotFoundError: [Errno 2] No such file or directory
+[h264 @ 0x2b816fc0] mmco: unref short failure
+[h264 @ 0x2b816fc0] mmco: unref short failure
+W0214 14:41:59.048000 4151366 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 4151375 closing signal SIGTERM
+W0214 14:41:59.049000 4151366 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 4151376 closing signal SIGTERM
+W0214 14:41:59.049000 4151366 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 4151377 closing signal SIGTERM
+W0214 14:41:59.050000 4151366 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 4151378 closing signal SIGTERM
+W0214 14:41:59.051000 4151366 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 4151379 closing signal SIGTERM
+W0214 14:41:59.051000 4151366 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 4151380 closing signal SIGTERM
+W0214 14:41:59.052000 4151366 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 4151382 closing signal SIGTERM
