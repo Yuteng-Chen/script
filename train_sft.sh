@@ -78,6 +78,5 @@ torchrun --nproc_per_node=${NUM_GPUS} --nnodes=1 --node_rank=0 \
     --num_train_epochs 1 \
     --run_name $RUN_NAME \
     --report_to wandb \
-    --group_by_length True \
     --save_steps 1000 \
     --save_only_model true
