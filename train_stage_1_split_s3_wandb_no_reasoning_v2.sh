@@ -1,5 +1,5 @@
 DATETIME=$(date '+%Y-%m-%d-%H')
-RUN_NAME="split_tool_s3_1e-6_wandb_no_reasoning_500save"
+RUN_NAME="split_tool_s3_1e-6_wandb_no_reasoning_500save_v2"
 OUTPUT_DIR=/scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/experiment/$RUN_NAME/$DATETIME
 mkdir -p $OUTPUT_DIR
 module load cuda/12.4.1
@@ -19,7 +19,7 @@ MASTER_PORT=29500
 
 echo "Local training mode: ${NUM_GPUS} GPUs on localhost:${MASTER_PORT}"
 
-TRAIN_PATH=configs/dataset.yaml
+TRAIN_PATH=configs/dataset_v2.yaml
 
 VIDEO_ROOT=/xuhongbo/shuimu.chen/LongVideoBench/LongVideoHaystack/videos_480p_noaudio
 
