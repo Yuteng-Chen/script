@@ -53,7 +53,7 @@ torchrun --nproc_per_node=${NUM_GPUS} --nnodes=1 --node_rank=0 \
     --max_per_frame_tokens 256 \
     --num_generations 8 \
     --scale_rewards false \
-    --beta 0.005 \
+    --beta 0.05 \
     --per_device_train_batch_size 1 \
     --gradient_accumulation_steps 2 \
     --steps_per_generation 1 \
