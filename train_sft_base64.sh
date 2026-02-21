@@ -68,7 +68,7 @@ torchrun --nproc_per_node=${NUM_GPUS} --nnodes=1 --node_rank=0 \
     --max_per_frame_tokens 192 \
     --per_device_train_batch_size 1 \
     --gradient_accumulation_steps 2 \
-    --dataloader_num_workers 1 \
+    --dataloader_num_workers 0 \
     --logging_steps 1 \
     --bf16 \
     --torch_dtype bfloat16 \
