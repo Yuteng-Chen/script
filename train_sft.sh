@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DATETIME=$(date '+%Y-%m-%d-%H')
-RUN_NAME="SFT_Video_R1_cyt_60_frame_epoch1_zero2_fix_work1——pilance-24-128-0140_30frame" ## 必须，不然OOM
+RUN_NAME="SFT_Latest" ## 必须，不然OOM
 OUTPUT_DIR=/scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/experiment/$RUN_NAME/$DATETIME
 mkdir -p $OUTPUT_DIR
 
@@ -65,7 +65,7 @@ torchrun --nproc_per_node=${NUM_GPUS} --nnodes=1 --node_rank=0 \
     --total_video_tokens  24000 \
     --max_frames 30 \
     --min_per_frame_tokens 4 \
-    --max_per_frame_tokens 128 \
+    --max_per_frame_tokens 192 \
     --per_device_train_batch_size 1 \
     --gradient_accumulation_steps 2 \
     --dataloader_num_workers 1 \
@@ -79,5 +79,5 @@ torchrun --nproc_per_node=${NUM_GPUS} --nnodes=1 --node_rank=0 \
     --num_train_epochs 1 \
     --run_name $RUN_NAME \
     --report_to wandb \
-    --save_steps 1000 \
+    --save_steps 2000 \
     --save_only_model true
