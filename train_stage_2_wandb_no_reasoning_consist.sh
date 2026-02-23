@@ -24,7 +24,7 @@ TRAIN_PATH=configs/dataset.yaml
 
 VIDEO_ROOT=/xuhongbo/shuimu.chen/LongVideoBench/LongVideoHaystack/videos_480p_noaudio
 ## 这里修改为v2的最新权重，需要改名字为Qwen2.5-VL
-MODEL_BASE=/scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/experiment/split_tool_v2/2026-02-03-15/Qwen2.5-VL-1600 
+MODEL_BASE=/scratch/prj0000000262-bucket/ocr/ec/TimeSearch-R_latest/experiment/split_tool_s3_1e-6_wandb_no_reasoning/2026-02-12-21/Qwen2.5-VL-2000 
 
 # MODEL_BASE=/xuhongbo//shuimu.chen/Qwen2.5-VL-3B-Instruct
 # MODEL_BASE=/data/shuimu.chen/Qwen2.5-VL-3B-Instruct
